@@ -19,7 +19,7 @@
 
 <!-- ══════════════════════════  ABOUT  ══════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> &nbsp;About Me
+## 👋 &nbsp;About Me
 
 ```typescript
 const kamran = {
@@ -43,7 +43,7 @@ resilient six-tier search pipeline. When one engine rate-limits, the next takes 
 
 <!-- ══════════════════════════  FLAGSHIP  ══════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> &nbsp;Flagship — Source Genius
+## 🚀 &nbsp;Flagship — Source Genius
 
 > **The problem:** Amazon sellers spend *hours* manually finding brand contact info.
 > **The fix:** One click. Paste ASINs → get official brand websites, deduplicated across a live team database.
@@ -61,7 +61,7 @@ resilient six-tier search pipeline. When one engine rate-limits, the next takes 
 
 <!-- ══════════════════════════  PROJECTS  ══════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/W5eoZHPpUx9nNQfaBs/giphy.gif" width="28"> &nbsp;What Else I Build
+## 🧰 &nbsp;What Else I Build
 
 <table>
 <tr>
@@ -108,7 +108,7 @@ FastAPI umbrella portal that ties the whole toolset into one local dashboard.
 
 <!-- ══════════════════════════  TECH STACK  ══════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif" width="28"> &nbsp;Tech Stack
+## 🛠️ &nbsp;Tech Stack
 
 <div align="center">
 
@@ -145,22 +145,22 @@ FastAPI umbrella portal that ties the whole toolset into one local dashboard.
 
 <!-- ══════════════════════════  STATS  ══════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="28"> &nbsp;GitHub Stats
+## 📊 &nbsp;GitHub Stats
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Kamran5H&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=8B5CF6&icon_color=EC4899&text_color=c9d1d9&bg_color=0d1117" alt="stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kamran5H&layout=compact&hide_border=true&langs_count=8&title_color=8B5CF6&text_color=c9d1d9&bg_color=0d1117" alt="top langs" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Kamran5H&theme=github_dark" alt="stats" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Kamran5H&theme=github_dark" alt="languages" />
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=Kamran5H&hide_border=true&background=0d1117&stroke=8B5CF6&ring=8B5CF6&fire=EC4899&currStreakLabel=8B5CF6&sideLabels=c9d1d9&dates=6e7681&currStreakNum=c9d1d9&sideNums=c9d1d9" alt="streak" />
+<img src="https://streak-stats.demolab.com?user=Kamran5H&hide_border=true&background=0D1117&stroke=8B5CF6&ring=8B5CF6&fire=EC4899&currStreakLabel=8B5CF6&sideLabels=C9D1D9&dates=6E7681&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="streak" />
 
 </div>
 
 <!-- ══════════════════════════  CONNECT  ══════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="26"> &nbsp;Let's Connect
+## 🤝 &nbsp;Let's Connect
 
 <div align="center">
 
