@@ -67,40 +67,40 @@ resilient six-tier search pipeline. When one engine rate-limits, the next takes 
 <tr>
 <td width="50%" valign="top">
 
-**🛒 Source Genius**
+**🛒 [Source Genius](https://github.com/Kamran5H/SourceGenius)**
 Brand website finder & lead-gen SaaS for Amazon sellers. Six-tier search fallback, shared dedup DB.
 `JavaScript` · `Chrome MV3`
 
-**📬 Gmail Zenith Pro**
+**📬 [Gmail Zenith Pro](https://github.com/Kamran5H/GmailZenith)**
 Bulk inbox automation on the Gmail API — smart batch actions, thread-safe cleanup.
 `Python` · `FastAPI`
 
-**🧹 Facebook Zenith Cleaner**
-Single-session social-graph cleaner. Scans, categorizes, and purges — you stay in control.
+**🧹 [Facebook Zenith Cleaner](https://github.com/Kamran5H/FacebookCleaner)**
+Bulk-triage friends, groups & pages. Scans into a dashboard, removes at a human pace.
 `Python` · `Playwright`
 
-**📚 Articles Downloader**
+**📚 [Articles Downloader](https://github.com/Kamran5H/ArticlesDownloader)**
 Scholarly research fetcher across 9 academic APIs with a local SQLite history.
 `Python` · `Tkinter`
 
 </td>
 <td width="50%" valign="top">
 
-**🎬 VideoStudio Pro**
+**🎬 [VideoStudio Pro](https://github.com/Kamran5H/VideoStudio)**
 Local AI video generation studio — free GPU backends, runs on your own machine.
 `Python` · `Gradio`
 
-**🕵️ TikTok Product Hunter**
+**🕵️ [TikTok Product Hunter](https://github.com/Kamran5H/TikTokProductHunter)**
 Amazon → TikTok product discovery scraper for trend-driven sourcing.
 `Python` · `Playwright`
 
-**✍️ Humanizer Pro**
+**✍️ [Humanizer Pro](https://github.com/Kamran5H/Humanizer)**
 Multi-provider LLM text refinement with a local AI-detection scorer.
 `Python` · `Tkinter`
 
-**☁️ Kami Cloud Suite**
-FastAPI umbrella portal that ties the whole toolset into one local dashboard.
-`Python` · `FastAPI`
+**🔬 [ReviewForge](https://github.com/Kamran5H/ReviewForge)**
+Config-driven engine for building critical, reproducible review articles.
+`Python`
 
 </td>
 </tr>
