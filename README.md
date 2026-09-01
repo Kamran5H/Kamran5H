@@ -106,6 +106,41 @@ Config-driven engine for building critical, reproducible review articles.
 </tr>
 </table>
 
+<!-- ══════════════════════════  ALL PROJECTS INDEX  ══════════════════════════ -->
+
+## 🗂️ &nbsp;Explore Everything I've Built
+
+<div align="center">
+
+**🛒 E-commerce & Amazon**
+
+[![Source Genius](https://img.shields.io/badge/Source_Genius-FF9900?style=flat-square&logo=amazon&logoColor=white)](https://github.com/Kamran5H/SourceGenius)
+[![Source Genius Extension](https://img.shields.io/badge/SG_Extension-FF9900?style=flat-square&logo=googlechrome&logoColor=white)](https://github.com/Kamran5H/SourceGenius-Extension)
+[![Source Genius Share](https://img.shields.io/badge/SG_Share-FF9900?style=flat-square&logo=googlechrome&logoColor=white)](https://github.com/Kamran5H/SourceGenius-Share)
+[![BrandScrapers](https://img.shields.io/badge/BrandScrapers-FF9900?style=flat-square&logo=python&logoColor=white)](https://github.com/Kamran5H/BrandScrapers)
+[![TikTok Product Hunter](https://img.shields.io/badge/TikTok_Product_Hunter-FF9900?style=flat-square&logo=tiktok&logoColor=white)](https://github.com/Kamran5H/TikTokProductHunter)
+
+**🤖 AI & Automation**
+
+[![Humanizer Pro](https://img.shields.io/badge/Humanizer_Pro-8B5CF6?style=flat-square&logo=openai&logoColor=white)](https://github.com/Kamran5H/Humanizer)
+[![VideoStudio](https://img.shields.io/badge/VideoStudio-8B5CF6?style=flat-square&logo=youtube&logoColor=white)](https://github.com/Kamran5H/VideoStudio)
+[![Gmail Zenith](https://img.shields.io/badge/Gmail_Zenith-8B5CF6?style=flat-square&logo=gmail&logoColor=white)](https://github.com/Kamran5H/GmailZenith)
+[![Facebook Cleaner](https://img.shields.io/badge/Facebook_Cleaner-8B5CF6?style=flat-square&logo=facebook&logoColor=white)](https://github.com/Kamran5H/FacebookCleaner)
+[![AutoClear](https://img.shields.io/badge/AutoClear-8B5CF6?style=flat-square&logo=googlechrome&logoColor=white)](https://github.com/Kamran5H/AutoClearExtension)
+
+**🔬 Research & Productivity**
+
+[![Articles Downloader](https://img.shields.io/badge/Articles_Downloader-10B981?style=flat-square&logo=googlescholar&logoColor=white)](https://github.com/Kamran5H/ArticlesDownloader)
+[![ReviewForge](https://img.shields.io/badge/ReviewForge-10B981?style=flat-square&logo=readthedocs&logoColor=white)](https://github.com/Kamran5H/ReviewForge)
+[![Research Daybook](https://img.shields.io/badge/Research_Daybook-10B981?style=flat-square&logo=obsidian&logoColor=white)](https://github.com/Kamran5H/ResearchDaybook)
+[![Chrome Monitor](https://img.shields.io/badge/Chrome_Monitor-10B981?style=flat-square&logo=googlechrome&logoColor=white)](https://github.com/Kamran5H/ChromeMonitor)
+
+**🌐 Web**
+
+[![Portfolio](https://img.shields.io/badge/Portfolio_·_KamranAshraf.com-6366F1?style=flat-square&logo=nextdotjs&logoColor=white)](https://github.com/Kamran5H/Portfolio)
+
+</div>
+
 <!-- ══════════════════════════  TECH STACK  ══════════════════════════ -->
 
 ## 🛠️ &nbsp;Tech Stack
