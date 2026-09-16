@@ -16,7 +16,7 @@
 <br/>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=Kamran5H&label=PROFILE%20VIEWS&color=8B5CF6&style=for-the-badge)](https://github.com/Kamran5H)
-[![Public Repos](https://img.shields.io/badge/REPOSITORIES-19%20ACTIVE-00F2FE?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kamran5H?tab=repositories)
+[![Public Repos](https://img.shields.io/badge/REPOSITORIES-20%20ACTIVE-00F2FE?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kamran5H?tab=repositories)
 [![Dual Focus](https://img.shields.io/badge/DUAL%20FOCUS-AI%20%C3%97%20MOLECULES-EC4899?style=for-the-badge&logo=atom&logoColor=white)](https://github.com/Kamran5H)
 [![Status](https://img.shields.io/badge/STATUS-SHIPPING%20%26%20DISCOVERING-10B981?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/Kamran5H)
 [![Location](https://img.shields.io/badge/BASED%20IN-PAKISTAN-4FACFE?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/Kamran5H)
@@ -41,7 +41,7 @@ Specializations:
   ├── [Computational Science]     Density Functional Theory (DFT), Quantum ESPRESSO, Molecular Imprinting (MIPs)
   ├── [Data Pipelines & Scrapers] 6-Tier Resilient Sourcing Engines, Chrome MV3 Extensions, Anti-Bot Spoofing
   └── [Engineering Disciplines]   100% TDD Suite Pass Rates, Zero-Leak Local Vaults, Zero-Cost Cloud Acceleration
-Active Repos:     19 Public Projects Shipped
+Active Repos:     20 Public Projects Shipped
 Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT Vibrational Spectra
 ```
 
@@ -92,40 +92,193 @@ Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT V
     </tr>
   </thead>
   <tbody>
-    <!-- #1 VideoStudio Pro -->
+    <!-- #1 Subah-TaskBook (Daily Tasker) -->
     <tr>
       <td align="center"><h1>🥇</h1><b>#1</b></td>
       <td>
+        <a href="https://github.com/Kamran5H/Subah-TaskBook"><b>🌅 Subah — Daily Tasker</b></a><br/>
+        <sub><i>Daily Focus, Schedule Calendar & Surprise Reward Book</i></sub><br/>
+        <img src="https://img.shields.io/badge/Rank-Flagship_%231-F59E0B?style=flat-square" alt="rank" />
+        <img src="https://img.shields.io/badge/Verified-100%25%20Pass-10B981?style=flat-square" alt="tests" />
+      </td>
+      <td>
+        • Continuous rollover engine: incomplete commitments automatically migrate to next dawn.<br/>
+        • New interactive Schedule calendar view with per-day task planning & pinning prioritization.<br/>
+        • Dopamine-calibrated surprise reward library (53 offline-safe audio/spiritual rewards).<br/>
+        • Integrated life diary with mood tracking, retrospect cards, and 100% offline local privacy.
+      </td>
+      <td align="center">
+        <code>Electron / JS</code><br/>
+        <code>HTML5 / CSS3</code><br/>
+        <code>Local Storage</code><br/>
+        <code>TDD Suite</code>
+      </td>
+    </tr>
+    <!-- #2 Quidian-MediaDownloader (All Videos Downloader) -->
+    <tr>
+      <td align="center"><h1>🥈</h1><b>#2</b></td>
+      <td>
+        <a href="https://github.com/Kamran5H/Quidian-MediaDownloader"><b>⚡ Quidian Media Downloader</b></a><br/>
+        <sub><i>All Videos & 4K Media Extraction Suite with Turbo Acceleration</i></sub><br/>
+        <img src="https://img.shields.io/badge/Rank-Flagship_%232-00F2FE?style=flat-square" alt="rank" />
+        <img src="https://img.shields.io/badge/Tests-137%2F137%20Pass-10B981?style=flat-square" alt="tests" />
+      </td>
+      <td>
+        • All-in-one 4K/8K media downloader powered by yt-dlp, aria2c turbo, and FastAPI backend.<br/>
+        • Persistent SQLite job store with stateful resume across server restarts.<br/>
+        • Intelligent playlist smart-resume scanning `[video_id]` to skip previously completed files.<br/>
+        • Stealth sniffer engine, series auto-detection, and lossless container muxing (MKV/MP4/MP3).
+      </td>
+      <td align="center">
+        <code>Python 3.12+</code><br/>
+        <code>FastAPI</code> · <code>SQLite</code><br/>
+        <code>yt-dlp</code> · <code>aria2c</code><br/>
+        <code>FFmpeg</code>
+      </td>
+    </tr>
+    <!-- #3 FacebookCleaner -->
+    <tr>
+      <td align="center"><h1>🥉</h1><b>#3</b></td>
+      <td>
+        <a href="https://github.com/Kamran5H/FacebookCleaner"><b>🛡️ Facebook Zenith Cleaner</b></a><br/>
+        <sub><i>Bulk Triage, Friend Audit & Community Cleanup Automation</i></sub><br/>
+        <img src="https://img.shields.io/badge/Rank-Flagship_%233-EC4899?style=flat-square" alt="rank" />
+        <img src="https://img.shields.io/badge/Engine-Playwright%20Stealth-8B5CF6?style=flat-square" alt="engine" />
+      </td>
+      <td>
+        • Automated triage and unfriend/leave actions for inactive friends, spam groups, and pages.<br/>
+        • In-tab DOM injection collector (`facebook_300_collector.js`) with stealth human pacing.<br/>
+        • Real-time web dashboard with filterable review tables, safe preview gates, and purge stats.<br/>
+        • Integrated chat history navigator and multi-profile session support.
+      </td>
+      <td align="center">
+        <code>Python 3.12+</code><br/>
+        <code>FastAPI</code> · <code>Playwright</code><br/>
+        <code>Vanilla JS</code><br/>
+        <code>Stealth DOM</code>
+      </td>
+    </tr>
+    <!-- #4 DiskOptimizerPro -->
+    <tr>
+      <td align="center"><b>#4</b></td>
+      <td>
+        <a href="https://github.com/Kamran5H/DiskOptimizerPro"><b>🧹 Disk Optimizer Pro V2</b></a><br/>
+        <sub><i>Executive Dual-Drive (C: & D:) System & Developer Disk Cleanup Suite</i></sub><br/>
+        <img src="https://img.shields.io/badge/Rank-Flagship_%234-6366F1?style=flat-square" alt="rank" />
+        <img src="https://img.shields.io/badge/Tests-22%2F22%20Pass-10B981?style=flat-square" alt="tests" />
+      </td>
+      <td>
+        • Multi-drive telemetry and cleaning covering both Local Disk C: and Local Disk D:.<br/>
+        • High-performance 3-stage duplicate file detector (Size filter → 4KB head hash → SHA-256).<br/>
+        • Sweeps Windows Delivery Optimization, Prefetch, MEMORY.DMP, and VC++ remnants.<br/>
+        • Developer super-pack: sweeps NPM, VS Code, Cursor, and Python build caches with live UI telemetry.
+      </td>
+      <td align="center">
+        <code>Python 3.12+</code><br/>
+        <code>CustomTkinter</code><br/>
+        <code>Dual-Drive Ops</code><br/>
+        <code>Pytest Suite</code>
+      </td>
+    </tr>
+    <!-- #5 Humanizer -->
+    <tr>
+      <td align="center"><b>#5</b></td>
+      <td>
+        <a href="https://github.com/Kamran5H/Humanizer"><b>✍️ Humanizer Pro</b></a><br/>
+        <sub><i>Natural AI Text Rewriting with Local Detection Scoring</i></sub><br/>
+        <img src="https://img.shields.io/badge/Rank-Flagship_%235-F59E0B?style=flat-square" alt="rank" />
+        <img src="https://img.shields.io/badge/NLP-Perplexity%20Engine-EC4899?style=flat-square" alt="nlp" />
+      </td>
+      <td>
+        • Restructures synthetic AI phrasing into rhythmic, varied human cadence with burstiness.<br/>
+        • Local heuristic scorer analyzing perplexity, vocabulary entropy, and repetition metrics.<br/>
+        • Zero-leak local inference preserving complete document privacy and citation structures.<br/>
+        • Full DOCX formatting preservation engine for academic research manuscripts.
+      </td>
+      <td align="center">
+        <code>Python 3.12+</code><br/>
+        <code>NLP Heuristics</code><br/>
+        <code>python-docx</code><br/>
+        <code>Regex Engine</code>
+      </td>
+    </tr>
+    <!-- #6 ArticlesDownloader -->
+    <tr>
+      <td align="center"><b>#6</b></td>
+      <td>
+        <a href="https://github.com/Kamran5H/ArticlesDownloader"><b>🔬 Articles Downloader v10 Ultra Pro</b></a><br/>
+        <sub><i>Academic Paper Discovery Across 9 Scientific APIs</i></sub><br/>
+        <img src="https://img.shields.io/badge/Rank-Flagship_%236-059669?style=flat-square" alt="rank" />
+        <img src="https://img.shields.io/badge/Tests-8%2F8%20Pass-10B981?style=flat-square" alt="tests" />
+      </td>
+      <td>
+        • Parallel multi-API scholarly discovery across Crossref, arXiv, PubMed, OpenAlex, etc.<br/>
+        • Next-Gen Obsidian 4K Modern UI with SSE live streaming progress and native window mode.<br/>
+        • SCImago SJR journal prestige ranking (Q1–Q4) and cascading Unpaywall/DOI resolver.<br/>
+        • Automated citation exports in BibTeX, RIS, and APA7 reference formats.
+      </td>
+      <td align="center">
+        <code>Python 3.12+</code><br/>
+        <code>Flask / SSE</code><br/>
+        <code>Tkinter GUI</code><br/>
+        <code>SQLite Index</code>
+      </td>
+    </tr>
+    <!-- #7 SourceGenius -->
+    <tr>
+      <td align="center"><b>#7</b></td>
+      <td>
+        <a href="https://github.com/Kamran5H/SourceGenius"><b>🔍 Source Genius Suite</b></a><br/>
+        <sub><i>Amazon Brand Architect & Multi-Tier Sourcing Intelligence</i></sub><br/>
+        <img src="https://img.shields.io/badge/Rank-Flagship_%237-FF9900?style=flat-square" alt="rank" />
+        <img src="https://img.shields.io/badge/Tests-56%2F56%20Pass-10B981?style=flat-square" alt="tests" />
+      </td>
+      <td>
+        • Chrome MV3 extension with real-time DOM brand parsing and sidepanel controls.<br/>
+        • Resilient six-tier search fallback (DNS probe → DDG → Yahoo → Brave → SearXNG → Bing).<br/>
+        • Playwright multi-browser scraper daemon with stealth watchdog and anti-bot spoofing.<br/>
+        • Team deduplication database ensuring zero redundant queries and clean supplier lead exports.
+      </td>
+      <td align="center">
+        <code>JavaScript</code><br/>
+        <code>Chrome MV3</code><br/>
+        <code>FastAPI</code> · <code>Playwright</code><br/>
+        <code>Node Test Suite</code>
+      </td>
+    </tr>
+    <!-- #8 VideoStudio Pro -->
+    <tr>
+      <td align="center"><b>#8</b></td>
+      <td>
         <a href="https://github.com/Kamran5H/VideoStudio"><b>🎬 VideoStudio Pro</b></a><br/>
         <sub><i>4K Ultra HD AI Cinema & Generative Motion Studio</i></sub><br/>
-        <img src="https://img.shields.io/badge/Tier-Flagship-F59E0B?style=flat-square" alt="tier" />
+        <img src="https://img.shields.io/badge/Rank-Flagship_%238-8B5CF6?style=flat-square" alt="rank" />
         <img src="https://img.shields.io/badge/Verified-9%2F9%20Pass-10B981?style=flat-square" alt="tests" />
       </td>
       <td>
         • Multi-scene script storyboard director powered by Gemini 2.5 Flash.<br/>
         • 3D Ken Burns pan/zoom camera motion with smooth cubic bezier easing.<br/>
         • Neural Edge-TTS voice synthesis + procedural ambient sound generator.<br/>
-        • Dual interface: Modern Gradio Web Studio + Native Tkinter Desktop GUI.<br/>
         • Zero-cost cloud GPU fallback pipelines (Wan 2.1, LTX-Video, Imagen 3).
       </td>
       <td align="center">
         <code>Python 3.12+</code><br/>
         <code>FFmpeg</code> · <code>Gradio</code><br/>
         <code>Gemini 2.5</code><br/>
-        <code>Edge-TTS</code> · <code>PIL</code>
+        <code>Edge-TTS</code>
       </td>
     </tr>
-    <!-- #2 AI-Coding -->
+    <!-- #9 AI-Coding -->
     <tr>
-      <td align="center"><h1>🥈</h1><b>#2</b></td>
+      <td align="center"><b>#9</b></td>
       <td>
         <a href="https://github.com/Kamran5H/AI-Coding"><b>💻 AI-Coding Workspace</b></a><br/>
         <sub><i>Autonomous Sovereign Coding Agent with Web GUI</i></sub><br/>
-        <img src="https://img.shields.io/badge/Safety-Human--in--Loop-00F2FE?style=flat-square" alt="hitl" />
-        <img src="https://img.shields.io/badge/Zero--Cost-Free%20Tier-10B981?style=flat-square" alt="free" />
+        <img src="https://img.shields.io/badge/Rank-Flagship_%239-00F2FE?style=flat-square" alt="rank" />
+        <img src="https://img.shields.io/badge/Safety-HITL%20Gate-10B981?style=flat-square" alt="hitl" />
       </td>
       <td>
-        • Full autonomous agentic loop: reads files, creates modules, and refactors bugs.<br/>
+        • Autonomous agentic loop: reads files, creates modules, and refactors bugs.<br/>
         • Mandatory human approval gate before executing system terminal commands.<br/>
         • Sandboxed workspace directory protection prevents unintended modifications.<br/>
         • Real-time SSE streaming visualizer with expandable tool execution cards.
@@ -137,122 +290,12 @@ Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT V
         <code>SSE Streaming</code>
       </td>
     </tr>
-    <!-- #3 Source Genius & BrandScrapers -->
-    <tr>
-      <td align="center"><h1>🥉</h1><b>#3</b></td>
-      <td>
-        <a href="https://github.com/Kamran5H/SourceGenius"><b>🔍 Source Genius Suite</b></a><br/>
-        <sub><i>E-Commerce Brand Discovery & Sourcing Intelligence</i></sub><br/>
-        <img src="https://img.shields.io/badge/Pipeline-6--Tier%20Search-EC4899?style=flat-square" alt="pipeline" />
-        <img src="https://img.shields.io/badge/Chrome-MV3%20Extension-4285F4?style=flat-square" alt="mv3" />
-      </td>
-      <td>
-        • Resilient six-tier search fallback: DNS probe → DDG → Yahoo → Brave → SearXNG → Bing.<br/>
-        • Amazon ASIN batch scraper with anti-bot fingerprint spoofing & proxy rotation.<br/>
-        • Shared team deduplication database ensuring zero redundant queries.<br/>
-        • Automated supplier lead-gen export with verified domain and contact discovery.
-      </td>
-      <td align="center">
-        <code>JavaScript</code><br/>
-        <code>Chrome MV3</code><br/>
-        <code>FastAPI</code> · <code>SQLite</code><br/>
-        <code>Playwright</code>
-      </td>
-    </tr>
-    <!-- #4 ArticlesDownloader & ReviewForge -->
-    <tr>
-      <td align="center"><b>#4</b></td>
-      <td>
-        <a href="https://github.com/Kamran5H/ArticlesDownloader"><b>🔬 ArticlesDownloader & ReviewForge</b></a><br/>
-        <sub><i>Academic Paper Discovery Across 9 Scientific APIs</i></sub><br/>
-        <img src="https://img.shields.io/badge/APIs-9%20Academic-6366F1?style=flat-square" alt="apis" />
-        <img src="https://img.shields.io/badge/Research-Literature-10B981?style=flat-square" alt="research" />
-      </td>
-      <td>
-        • Unified scholarly search across arXiv, PubMed, CrossRef, and Semantic Scholar.<br/>
-        • Automated PDF retrieval, metadata extraction, and local SQLite citation indexing.<br/>
-        • Pairs with <a href="https://github.com/Kamran5H/ReviewForge">ReviewForge</a> for config-driven systematic literature reviews.<br/>
-        • Offline persistence integration via <a href="https://github.com/Kamran5H/ResearchDaybook">ResearchDaybook</a> localStorage journal.
-      </td>
-      <td align="center">
-        <code>Python 3.12</code><br/>
-        <code>SQLite</code> · <code>APIs</code><br/>
-        <code>CustomTkinter</code><br/>
-        <code>AsyncIO</code>
-      </td>
-    </tr>
-    <!-- #5 Quidian Media Downloader -->
-    <tr>
-      <td align="center"><b>#5</b></td>
-      <td>
-        <a href="https://github.com/Kamran5H/Quidian-MediaDownloader"><b>⚡ Quidian Media Downloader</b></a><br/>
-        <sub><i>High-Performance Multi-Stream Media Extraction Suite</i></sub><br/>
-        <img src="https://img.shields.io/badge/Tests-10%2F10%20Pass-10B981?style=flat-square" alt="tests" />
-        <img src="https://img.shields.io/badge/Quality-Lossless%204K-8B5CF6?style=flat-square" alt="quality" />
-      </td>
-      <td>
-        • Multi-stream asynchronous downloads with parallel chunking & aria2c turbo acceleration.<br/>
-        • Lossless audio/video muxing, subtitle ripping, and multi-format container encoding.<br/>
-        • Playlist batch processing with smart resume and anti-throttle request jitter.<br/>
-        • Complete unit & integration test suite (10/10 passing).
-      </td>
-      <td align="center">
-        <code>Python 3.12</code><br/>
-        <code>yt-dlp</code> · <code>aria2c</code><br/>
-        <code>FFmpeg</code> · <code>Tkinter</code><br/>
-        <code>Pytest</code>
-      </td>
-    </tr>
-    <!-- #6 Subah-TaskBook -->
-    <tr>
-      <td align="center"><b>#6</b></td>
-      <td>
-        <a href="https://github.com/Kamran5H/Subah-TaskBook"><b>🌅 Subah — Daily TaskBook</b></a><br/>
-        <sub><i>Daily Focus & Surprise Reward Book with Continuous Rollover</i></sub><br/>
-        <img src="https://img.shields.io/badge/Philosophy-Deep%20Work-F59E0B?style=flat-square" alt="deepwork" />
-        <img src="https://img.shields.io/badge/Storage-Local%20First-10B981?style=flat-square" alt="local" />
-      </td>
-      <td>
-        • Continuous rollover engine: unfinished commitments seamlessly migrate to the next dawn.<br/>
-        • Dopamine-calibrated surprise reward mechanic upon completing core deep-work blocks.<br/>
-        • Integrated life diary with mood tracking and retrospective reflection cards.<br/>
-        • 100% offline-first architecture with zero third-party tracking or cloud dependencies.
-      </td>
-      <td align="center">
-        <code>JavaScript</code><br/>
-        <code>HTML5 / CSS3</code><br/>
-        <code>Local Storage</code><br/>
-        <code>Single-File PWA</code>
-      </td>
-    </tr>
-    <!-- #7 Humanizer Pro -->
-    <tr>
-      <td align="center"><b>#7</b></td>
-      <td>
-        <a href="https://github.com/Kamran5H/Humanizer"><b>✍️ Humanizer Pro</b></a><br/>
-        <sub><i>Natural AI Text Rewriting with Local Detection Scoring</i></sub><br/>
-        <img src="https://img.shields.io/badge/NLP-Perplexity%20Engine-EC4899?style=flat-square" alt="nlp" />
-        <img src="https://img.shields.io/badge/Scoring-Local%20Heuristics-00F2FE?style=flat-square" alt="scoring" />
-      </td>
-      <td>
-        • Restructures synthetic phrasing into rhythmic, varied human cadence.<br/>
-        • Built-in heuristic analyzer measuring burstiness, vocabulary entropy, and repetition.<br/>
-        • Zero-leak local inference preserving complete document privacy.<br/>
-        • Preserves technical accuracy, domain nomenclature, and citation structure.
-      </td>
-      <td align="center">
-        <code>Python 3.12</code><br/>
-        <code>NLP Heuristics</code><br/>
-        <code>Tkinter GUI</code><br/>
-        <code>Regex Engine</code>
-      </td>
-    </tr>
   </tbody>
 </table>
 
 ---
 
-## 🗂️ &nbsp;Classified Repository Atlas (19 Public Projects)
+## 🗂️ &nbsp;Classified Repository Atlas (20 Public Projects)
 
 <div align="center">
 
@@ -274,6 +317,7 @@ Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT V
 [![SourceGenius Share](https://img.shields.io/badge/SG_Share_Portal-Deployment_Bundle-3B82F6?style=for-the-badge&logo=googlecloud&logoColor=white)](https://github.com/Kamran5H/SourceGenius-Share)
 
 ### 🛡️ Browser Extensions & Desktop Utilities
+[![Disk Optimizer Pro](https://img.shields.io/badge/DiskOptimizer_Pro-Dual--Drive_Cleanup-6366F1?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Kamran5H/DiskOptimizerPro)
 [![Quidian Media](https://img.shields.io/badge/Quidian_Downloader-Turbo_4K_Extractor-10B981?style=for-the-badge&logo=vlcmediaplayer&logoColor=white)](https://github.com/Kamran5H/Quidian-MediaDownloader)
 [![Subah TaskBook](https://img.shields.io/badge/Subah_TaskBook-Daily_Focus_%26_Diary-F59E0B?style=for-the-badge&logo=clockify&logoColor=white)](https://github.com/Kamran5H/Subah-TaskBook)
 [![Gmail Zenith](https://img.shields.io/badge/Gmail_Zenith-Bulk_Inbox_Automation-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](https://github.com/Kamran5H/GmailZenith)
