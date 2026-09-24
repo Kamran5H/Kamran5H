@@ -6,8 +6,25 @@
 <div align="center">
 
 <a href="https://github.com/Kamran5H">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F2FE,25:4FACFE,50:6366F1,75:8B5CF6,100:EC4899&height=240&section=header&text=Kamran%20Ashraf&fontSize=52&fontColor=ffffff&fontAlignY=34&desc=AI%20Systems%20Architect%20%C2%B7%20Computational%20Physical%20Chemist%20%C2%B7%20Automation%20Pioneer&descAlignY=58&descSize=18&animation=fadeIn" alt="Kamran Ashraf Banner" />
+  <img width="100%" src="assets/banner.jpg" alt="Kamran Ashraf Banner — From Atoms to Autonomous Code" />
 </a>
+
+<br/><br/>
+
+<table border="0">
+  <tr>
+    <td align="center" width="160">
+      <a href="https://github.com/Kamran5H">
+        <img src="assets/avatar.jpg" width="140" height="140" style="border-radius: 50%;" alt="Kamran Ashraf Avatar" />
+      </a>
+    </td>
+    <td align="left">
+      <h1>&nbsp;Muhammad Kamran Ashraf (Kami)</h1>
+      <p>&nbsp;&nbsp;<b>AI Systems Architect &bull; Computational Physical Chemist &bull; Automation Pioneer</b></p>
+      <p>&nbsp;&nbsp;<i>"Synthesizing Intelligence: From Atoms to Autonomous Code"</i></p>
+    </td>
+  </tr>
+</table>
 
 <a href="https://github.com/Kamran5H">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1200&color=00F2FE&center=true&vCenter=true&width=860&lines=Building+Autonomous+AI+Agents+%26+Local-First+Neural+Engines;Simulating+Molecular+Physics+%26+DFT+with+Quantum+ESPRESSO;Crafting+4K+Generative+Cinema+%26+Neural+Voice+Synthesis;Architecting+High-Throughput+E-Commerce+Data+Pipelines;Synthesizing+Intelligence%3A+From+Atoms+to+Autonomous+Code." alt="Typing Animation" />
@@ -16,7 +33,7 @@
 <br/>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=Kamran5H&label=PROFILE%20VIEWS&color=8B5CF6&style=for-the-badge)](https://github.com/Kamran5H)
-[![Public Repos](https://img.shields.io/badge/REPOSITORIES-20%20ACTIVE-00F2FE?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kamran5H?tab=repositories)
+[![Public Repos](https://img.shields.io/badge/REPOSITORIES-24%20ACTIVE-00F2FE?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kamran5H?tab=repositories)
 [![Dual Focus](https://img.shields.io/badge/DUAL%20FOCUS-AI%20%C3%97%20MOLECULES-EC4899?style=for-the-badge&logo=atom&logoColor=white)](https://github.com/Kamran5H)
 [![Status](https://img.shields.io/badge/STATUS-SHIPPING%20%26%20DISCOVERING-10B981?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/Kamran5H)
 [![Location](https://img.shields.io/badge/BASED%20IN-PAKISTAN-4FACFE?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/Kamran5H)
@@ -41,7 +58,7 @@ Specializations:
   ├── [Computational Science]     Density Functional Theory (DFT), Quantum ESPRESSO, Molecular Imprinting (MIPs)
   ├── [Data Pipelines & Scrapers] 6-Tier Resilient Sourcing Engines, Chrome MV3 Extensions, Anti-Bot Spoofing
   └── [Engineering Disciplines]   100% TDD Suite Pass Rates, Zero-Leak Local Vaults, Zero-Cost Cloud Acceleration
-Active Repos:     20 Public Projects Shipped
+Active Repos:     24 Active Projects Shipped
 Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT Vibrational Spectra
 ```
 
