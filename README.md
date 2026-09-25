@@ -33,7 +33,7 @@
 <br/>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=Kamran5H&label=PROFILE%20VIEWS&color=8B5CF6&style=for-the-badge)](https://github.com/Kamran5H)
-[![Public Repos](https://img.shields.io/badge/REPOSITORIES-24%20ACTIVE-00F2FE?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kamran5H?tab=repositories)
+[![Public Repos](https://img.shields.io/badge/REPOSITORIES-25%20ACTIVE-00F2FE?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kamran5H?tab=repositories)
 [![Dual Focus](https://img.shields.io/badge/DUAL%20FOCUS-AI%20%C3%97%20MOLECULES-EC4899?style=for-the-badge&logo=atom&logoColor=white)](https://github.com/Kamran5H)
 [![Status](https://img.shields.io/badge/STATUS-SHIPPING%20%26%20DISCOVERING-10B981?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/Kamran5H)
 [![Location](https://img.shields.io/badge/BASED%20IN-PAKISTAN-4FACFE?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/Kamran5H)
@@ -58,7 +58,7 @@ Specializations:
   ├── [Computational Science]     Density Functional Theory (DFT), Quantum ESPRESSO, Molecular Imprinting (MIPs)
   ├── [Data Pipelines & Scrapers] 6-Tier Resilient Sourcing Engines, Chrome MV3 Extensions, Anti-Bot Spoofing
   └── [Engineering Disciplines]   100% TDD Suite Pass Rates, Zero-Leak Local Vaults, Zero-Cost Cloud Acceleration
-Active Repos:     24 Active Projects Shipped
+Active Repos:     25 Active Projects Shipped
 Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT Vibrational Spectra
 ```
 
@@ -312,11 +312,12 @@ Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT V
 
 ---
 
-## 🗂️ &nbsp;Classified Repository Atlas (20 Public Projects)
+## 🗂️ &nbsp;Classified Repository Atlas (21 Public Projects)
 
 <div align="center">
 
-### 🤖 AI, LLM & Generative Media
+### 🤖 AI, LLM, Generative Media & Creative Typography
+[![Urdu Poetry Studio](https://img.shields.io/badge/Urdu_Poetry_Studio-4K_Typography_%26_3D_Materials-D4AF37?style=for-the-badge&logo=quora&logoColor=black)](https://github.com/Kamran5H/Urdu-Poetry-Studio)
 [![VideoStudio Pro](https://img.shields.io/badge/VideoStudio_Pro-4K_Cinema_Studio-8B5CF6?style=for-the-badge&logo=youtube&logoColor=white)](https://github.com/Kamran5H/VideoStudio)
 [![AI Coding App](https://img.shields.io/badge/AI_Coding-Autonomous_Dev_Agent-00F2FE?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://github.com/Kamran5H/AI-Coding)
 [![Humanizer Pro](https://img.shields.io/badge/Humanizer_Pro-Text_Naturalization-EC4899?style=for-the-badge&logo=probot&logoColor=white)](https://github.com/Kamran5H/Humanizer)
