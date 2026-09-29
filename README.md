@@ -15,7 +15,7 @@
   <tr>
     <td align="center" width="160">
       <a href="https://github.com/Kamran5H">
-        <img src="assets/avatar.jpg" width="140" height="140" style="border-radius: 50%;" alt="Kamran Ashraf Avatar" />
+        <img src="assets/avatar.png" width="140" height="140" alt="Kamran Ashraf Avatar" />
       </a>
     </td>
     <td align="left">
@@ -33,7 +33,7 @@
 <br/>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=Kamran5H&label=PROFILE%20VIEWS&color=8B5CF6&style=for-the-badge)](https://github.com/Kamran5H)
-[![Public Repos](https://img.shields.io/badge/REPOSITORIES-25%20ACTIVE-00F2FE?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kamran5H?tab=repositories)
+[![Public Repos](https://img.shields.io/badge/PUBLIC%20PROJECTS-20-00F2FE?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kamran5H?tab=repositories)
 [![Dual Focus](https://img.shields.io/badge/DUAL%20FOCUS-AI%20%C3%97%20MOLECULES-EC4899?style=for-the-badge&logo=atom&logoColor=white)](https://github.com/Kamran5H)
 [![Status](https://img.shields.io/badge/STATUS-SHIPPING%20%26%20DISCOVERING-10B981?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/Kamran5H)
 [![Location](https://img.shields.io/badge/BASED%20IN-PAKISTAN-4FACFE?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/Kamran5H)
@@ -58,7 +58,7 @@ Specializations:
   ├── [Computational Science]     Density Functional Theory (DFT), Quantum ESPRESSO, Molecular Imprinting (MIPs)
   ├── [Data Pipelines & Scrapers] 6-Tier Resilient Sourcing Engines, Chrome MV3 Extensions, Anti-Bot Spoofing
   └── [Engineering Disciplines]   100% TDD Suite Pass Rates, Zero-Leak Local Vaults, Zero-Cost Cloud Acceleration
-Active Repos:     25 Active Projects Shipped
+Active Repos:     20 Public Projects Shipped · 4 Private in Development
 Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT Vibrational Spectra
 ```
 
@@ -116,12 +116,12 @@ Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT V
         <a href="https://github.com/Kamran5H/Subah-TaskBook"><b>🌅 Subah — Daily Tasker</b></a><br/>
         <sub><i>Daily Focus, Schedule Calendar & Surprise Reward Book</i></sub><br/>
         <img src="https://img.shields.io/badge/Rank-Flagship_%231-F59E0B?style=flat-square" alt="rank" />
-        <img src="https://img.shields.io/badge/Verified-100%25%20Pass-10B981?style=flat-square" alt="tests" />
+        <img src="https://img.shields.io/badge/Tests-14%20Core%20Logic%20Pass-10B981?style=flat-square" alt="tests" />
       </td>
       <td>
         • Continuous rollover engine: incomplete commitments automatically migrate to next dawn.<br/>
         • New interactive Schedule calendar view with per-day task planning & pinning prioritization.<br/>
-        • Dopamine-calibrated surprise reward library (53 offline-safe audio/spiritual rewards).<br/>
+        • Dopamine-calibrated surprise reward library: 53 rewards (duas, breathing breaks, readings, advice, naats & qawwalis).<br/>
         • Integrated life diary with mood tracking, retrospect cards, and 100% offline local privacy.
       </td>
       <td align="center">
@@ -138,17 +138,17 @@ Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT V
         <a href="https://github.com/Kamran5H/Quidian-MediaDownloader"><b>⚡ Quidian Media Downloader</b></a><br/>
         <sub><i>All Videos & 4K Media Extraction Suite with Turbo Acceleration</i></sub><br/>
         <img src="https://img.shields.io/badge/Rank-Flagship_%232-00F2FE?style=flat-square" alt="rank" />
-        <img src="https://img.shields.io/badge/Tests-137%2F137%20Pass-10B981?style=flat-square" alt="tests" />
+        <img src="https://img.shields.io/badge/Tests-152%20Pass-10B981?style=flat-square" alt="tests" />
       </td>
       <td>
-        • All-in-one 4K/8K media downloader powered by yt-dlp, aria2c turbo, and FastAPI backend.<br/>
+        • All-in-one 4K/8K media downloader powered by yt-dlp, aria2c turbo, and a Flask + Waitress backend.<br/>
         • Persistent SQLite job store with stateful resume across server restarts.<br/>
         • Intelligent playlist smart-resume scanning `[video_id]` to skip previously completed files.<br/>
         • Stealth sniffer engine, series auto-detection, and lossless container muxing (MKV/MP4/MP3).
       </td>
       <td align="center">
         <code>Python 3.12+</code><br/>
-        <code>FastAPI</code> · <code>SQLite</code><br/>
+        <code>Flask</code> · <code>SQLite</code><br/>
         <code>yt-dlp</code> · <code>aria2c</code><br/>
         <code>FFmpeg</code>
       </td>
@@ -182,7 +182,7 @@ Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT V
         <a href="https://github.com/Kamran5H/DiskOptimizerPro"><b>🧹 Disk Optimizer Pro V2</b></a><br/>
         <sub><i>Executive Dual-Drive (C: & D:) System & Developer Disk Cleanup Suite</i></sub><br/>
         <img src="https://img.shields.io/badge/Rank-Flagship_%234-6366F1?style=flat-square" alt="rank" />
-        <img src="https://img.shields.io/badge/Tests-22%2F22%20Pass-10B981?style=flat-square" alt="tests" />
+        <img src="https://img.shields.io/badge/Tests-27%20Pytest-10B981?style=flat-square" alt="tests" />
       </td>
       <td>
         • Multi-drive telemetry and cleaning covering both Local Disk C: and Local Disk D:.<br/>
@@ -226,7 +226,7 @@ Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT V
         <a href="https://github.com/Kamran5H/ArticlesDownloader"><b>🔬 Articles Downloader v10 Ultra Pro</b></a><br/>
         <sub><i>Academic Paper Discovery Across 9 Scientific APIs</i></sub><br/>
         <img src="https://img.shields.io/badge/Rank-Flagship_%236-059669?style=flat-square" alt="rank" />
-        <img src="https://img.shields.io/badge/Tests-8%2F8%20Pass-10B981?style=flat-square" alt="tests" />
+        <img src="https://img.shields.io/badge/Tests-52%2F52%20Pass-10B981?style=flat-square" alt="tests" />
       </td>
       <td>
         • Parallel multi-API scholarly discovery across Crossref, arXiv, PubMed, OpenAlex, etc.<br/>
@@ -248,7 +248,7 @@ Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT V
         <a href="https://github.com/Kamran5H/SourceGenius"><b>🔍 Source Genius Suite</b></a><br/>
         <sub><i>Amazon Brand Architect & Multi-Tier Sourcing Intelligence</i></sub><br/>
         <img src="https://img.shields.io/badge/Rank-Flagship_%237-FF9900?style=flat-square" alt="rank" />
-        <img src="https://img.shields.io/badge/Tests-56%2F56%20Pass-10B981?style=flat-square" alt="tests" />
+        <img src="https://img.shields.io/badge/Tests-65%2F65%20Pass-10B981?style=flat-square" alt="tests" />
       </td>
       <td>
         • Chrome MV3 extension with real-time DOM brand parsing and sidepanel controls.<br/>
@@ -259,7 +259,7 @@ Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT V
       <td align="center">
         <code>JavaScript</code><br/>
         <code>Chrome MV3</code><br/>
-        <code>FastAPI</code> · <code>Playwright</code><br/>
+        <code>Node.js</code> · <code>Playwright</code><br/>
         <code>Node Test Suite</code>
       </td>
     </tr>
@@ -312,7 +312,7 @@ Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT V
 
 ---
 
-## 🗂️ &nbsp;Classified Repository Atlas (21 Public Projects)
+## 🗂️ &nbsp;Classified Repository Atlas (20 Public Projects)
 
 <div align="center">
 
