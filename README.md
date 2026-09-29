@@ -1,12 +1,12 @@
 <!-- ══════════════════════════════════════════════════════════════════════════════════════ -->
-<!--                             KAMRAN ASHRAF — GITHUB PROFILE                            -->
+<!--                             MUHAMMAD KAMRAN ASHRAF — GITHUB PROFILE                        -->
 <!--           AI Systems Architect · Computational Physical Chemist · Automation Pioneer   -->
 <!-- ══════════════════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
 <a href="https://github.com/Kamran5H">
-  <img width="100%" src="assets/banner.jpg" alt="Kamran Ashraf Banner — From Atoms to Autonomous Code" />
+  <img width="100%" src="assets/banner.jpg" alt="Muhammad Kamran Ashraf — From Atoms to Autonomous Code" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
 </a>
 
 <br/><br/>
@@ -15,28 +15,31 @@
   <tr>
     <td align="center" width="160">
       <a href="https://github.com/Kamran5H">
-        <img src="assets/avatar.png" width="140" height="140" alt="Kamran Ashraf Avatar" />
+        <img src="assets/avatar.png" width="145" height="145" style="border-radius: 50%; border: 3px solid #00F2FE; box-shadow: 0 0 20px rgba(0, 242, 254, 0.4);" alt="Muhammad Kamran Ashraf" />
       </a>
     </td>
     <td align="left">
       <h1>&nbsp;Muhammad Kamran Ashraf (Kami)</h1>
       <p>&nbsp;&nbsp;<b>AI Systems Architect &bull; Computational Physical Chemist &bull; Automation Pioneer</b></p>
-      <p>&nbsp;&nbsp;<i>"Synthesizing Intelligence: From Atoms to Autonomous Code"</i></p>
+      <p>&nbsp;&nbsp;🎓 <i>MPhil Scholar @ Quaid-i-Azam University, Islamabad (QAU)</i></p>
+      <p>&nbsp;&nbsp;💡 <i>“Synthesizing Intelligence: From Atoms to Autonomous Code”</i></p>
     </td>
   </tr>
 </table>
 
+<br/>
+
 <a href="https://github.com/Kamran5H">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1200&color=00F2FE&center=true&vCenter=true&width=860&lines=Building+Autonomous+AI+Agents+%26+Local-First+Neural+Engines;Simulating+Molecular+Physics+%26+DFT+with+Quantum+ESPRESSO;Crafting+4K+Generative+Cinema+%26+Neural+Voice+Synthesis;Architecting+High-Throughput+E-Commerce+Data+Pipelines;Synthesizing+Intelligence%3A+From+Atoms+to+Autonomous+Code." alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&pause=1200&color=00F2FE&center=true&vCenter=true&width=880&lines=Building+Autonomous+AI+Agents+%26+Local-First+Neural+Engines;Simulating+Molecular+Physics+%26+DFT+with+Quantum+ESPRESSO;Engineering+Resilient+High-Throughput+Scrapers+%26+MV3+Extensions;Developing+Point-of-Care+Biosensors+%26+Functional+Nanomaterials;Crafting+4K+Generative+Cinema+%26+Neural+Voice+Synthesis;Synthesizing+Intelligence%3A+From+Atoms+to+Autonomous+Code." alt="Typing Animation" />
 </a>
 
 <br/>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=Kamran5H&label=PROFILE%20VIEWS&color=8B5CF6&style=for-the-badge)](https://github.com/Kamran5H)
-[![Public Repos](https://img.shields.io/badge/PUBLIC%20PROJECTS-20-00F2FE?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kamran5H?tab=repositories)
+[![Profile Views](https://komarev.com/ghpvc/?username=Kamran5H&label=PROFILE%20VIEWS&color=6366F1&style=for-the-badge)](https://github.com/Kamran5H)
+[![Public Repos](https://img.shields.io/badge/REPOSITORIES-25%20ACTIVE-00F2FE?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kamran5H?tab=repositories)
+[![Institution](https://img.shields.io/badge/SCHOLAR-QAU%20ISLAMABAD-10B981?style=for-the-badge&logo=googlescholar&logoColor=white)](https://qau.edu.pk/)
 [![Dual Focus](https://img.shields.io/badge/DUAL%20FOCUS-AI%20%C3%97%20MOLECULES-EC4899?style=for-the-badge&logo=atom&logoColor=white)](https://github.com/Kamran5H)
-[![Status](https://img.shields.io/badge/STATUS-SHIPPING%20%26%20DISCOVERING-10B981?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/Kamran5H)
-[![Location](https://img.shields.io/badge/BASED%20IN-PAKISTAN-4FACFE?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/Kamran5H)
+[![Location](https://img.shields.io/badge/BASED%20IN-ISLAMABAD%2C%20PK-4FACFE?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/Kamran5H)
 
 </div>
 
@@ -51,14 +54,15 @@
 
 ```yaml
 Identity:         Muhammad Kamran Ashraf (Kami)
+Academic Base:    Quaid-i-Azam University, Islamabad (Department of Chemistry)
 Dual Core:        AI Systems Architecture  ×  Computational Physical Chemistry
 Motto:            "Synthesizing Intelligence: From Atoms to Autonomous Code"
 Specializations:
   ├── [Autonomous AI Systems]     Local-First Agentic Loops, Neural Voice/Cinema, HITL Safeguards, SSE Streaming
   ├── [Computational Science]     Density Functional Theory (DFT), Quantum ESPRESSO, Molecular Imprinting (MIPs)
   ├── [Data Pipelines & Scrapers] 6-Tier Resilient Sourcing Engines, Chrome MV3 Extensions, Anti-Bot Spoofing
-  └── [Engineering Disciplines]   100% TDD Suite Pass Rates, Zero-Leak Local Vaults, Zero-Cost Cloud Acceleration
-Active Repos:     20 Public Projects Shipped · 4 Private in Development
+  └── [Engineering Rigor]        100% TDD Suite Pass Rates, Zero-Leak Local Vaults, Zero-Cost Cloud Acceleration
+Active Repos:     25 Active Repositories Shipped & Maintained
 Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT Vibrational Spectra
 ```
 
@@ -79,7 +83,7 @@ Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT V
     <tr>
       <td valign="top">
         • <b>Local-First Sovereign Agents:</b> Inspect, test, and refactor codebases autonomously with human-in-the-loop terminal safety gates.<br/><br/>
-        • <b>4K Generative Cinema:</b> Storyboard prompt directors with Gemini 2.5, 3D Ken Burns motion, neural Edge-TTS voiceovers, and Wan 2.1 / LTX-Video.<br/><br/>
+        • <b>4K Generative Cinema:</b> Storyboard prompt directors with Gemini 2.5 Flash, 3D Ken Burns motion, neural Edge-TTS voiceovers, and Wan 2.1 / LTX-Video.<br/><br/>
         • <b>High-Resilience Scraping:</b> 6-tier fallback engines (DNS probe → DDG → Yahoo → Brave → SearXNG → Bing) with anti-fingerprint emulation.<br/><br/>
         • <b>Chrome MV3 Ecosystems:</b> Manifest V3 service workers, DOM mutation observers, and high-speed data deduplication pipelines.
       </td>
@@ -87,7 +91,7 @@ Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT V
         • <b>Ab-Initio DFT Modeling:</b> Quantum ESPRESSO electronic structure, geometry optimization, phonon dispersion, and FTIR vibrational simulations.<br/><br/>
         • <b>Molecularly Imprinted Polymers (MIPs):</b> Biomimetic artificial receptors for electrochemical point-of-care sensors (PANi@CaO urea sensors).<br/><br/>
         • <b>Green Nanotechnology:</b> Plant-mediated biosynthesis of functional metal oxides (CaO from <i>Syzygium cumini</i>) for catalysis and sensing.<br/><br/>
-        • <b>Automated Scientific Literature:</b> Python engines querying 9 academic APIs (arXiv, PubMed, CrossRef) with config-driven review synthesis.
+        • <b>Automated Scientific Discovery:</b> Parallel Python engines querying 9 academic APIs (Crossref, PubMed, arXiv, OpenAlex) with config-driven review synthesis.
       </td>
     </tr>
   </tbody>
@@ -109,19 +113,19 @@ Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT V
     </tr>
   </thead>
   <tbody>
-    <!-- #1 Subah-TaskBook (Daily Tasker) -->
+    <!-- #1 Subah-TaskBook -->
     <tr>
       <td align="center"><h1>🥇</h1><b>#1</b></td>
       <td>
         <a href="https://github.com/Kamran5H/Subah-TaskBook"><b>🌅 Subah — Daily Tasker</b></a><br/>
         <sub><i>Daily Focus, Schedule Calendar & Surprise Reward Book</i></sub><br/>
         <img src="https://img.shields.io/badge/Rank-Flagship_%231-F59E0B?style=flat-square" alt="rank" />
-        <img src="https://img.shields.io/badge/Tests-14%20Core%20Logic%20Pass-10B981?style=flat-square" alt="tests" />
+        <img src="https://img.shields.io/badge/Verified-100%25%20Pass-10B981?style=flat-square" alt="tests" />
       </td>
       <td>
         • Continuous rollover engine: incomplete commitments automatically migrate to next dawn.<br/>
-        • New interactive Schedule calendar view with per-day task planning & pinning prioritization.<br/>
-        • Dopamine-calibrated surprise reward library: 53 rewards (duas, breathing breaks, readings, advice, naats & qawwalis).<br/>
+        • Interactive Schedule calendar view with per-day task planning & pinning prioritization.<br/>
+        • Dopamine-calibrated surprise reward library (53 offline-safe audio/spiritual rewards).<br/>
         • Integrated life diary with mood tracking, retrospect cards, and 100% offline local privacy.
       </td>
       <td align="center">
@@ -131,7 +135,7 @@ Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT V
         <code>TDD Suite</code>
       </td>
     </tr>
-    <!-- #2 Quidian-MediaDownloader (All Videos Downloader) -->
+    <!-- #2 Quidian-MediaDownloader -->
     <tr>
       <td align="center"><h1>🥈</h1><b>#2</b></td>
       <td>
@@ -143,12 +147,12 @@ Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT V
       <td>
         • All-in-one 4K/8K media downloader powered by yt-dlp, aria2c turbo, and a Flask + Waitress backend.<br/>
         • Persistent SQLite job store with stateful resume across server restarts.<br/>
-        • Intelligent playlist smart-resume scanning `[video_id]` to skip previously completed files.<br/>
+        • Intelligent playlist smart-resume scanning <code>[video_id]</code> to skip previously completed files.<br/>
         • Stealth sniffer engine, series auto-detection, and lossless container muxing (MKV/MP4/MP3).
       </td>
       <td align="center">
         <code>Python 3.12+</code><br/>
-        <code>Flask</code> · <code>SQLite</code><br/>
+        <code>Flask / Waitress</code><br/>
         <code>yt-dlp</code> · <code>aria2c</code><br/>
         <code>FFmpeg</code>
       </td>
@@ -164,7 +168,7 @@ Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT V
       </td>
       <td>
         • Automated triage and unfriend/leave actions for inactive friends, spam groups, and pages.<br/>
-        • In-tab DOM injection collector (`facebook_300_collector.js`) with stealth human pacing.<br/>
+        • In-tab DOM injection collector with stealth human pacing.<br/>
         • Real-time web dashboard with filterable review tables, safe preview gates, and purge stats.<br/>
         • Integrated chat history navigator and multi-profile session support.
       </td>
@@ -182,7 +186,7 @@ Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT V
         <a href="https://github.com/Kamran5H/DiskOptimizerPro"><b>🧹 Disk Optimizer Pro V2</b></a><br/>
         <sub><i>Executive Dual-Drive (C: & D:) System & Developer Disk Cleanup Suite</i></sub><br/>
         <img src="https://img.shields.io/badge/Rank-Flagship_%234-6366F1?style=flat-square" alt="rank" />
-        <img src="https://img.shields.io/badge/Tests-27%20Pytest-10B981?style=flat-square" alt="tests" />
+        <img src="https://img.shields.io/badge/Tests-22%2F22%20Pass-10B981?style=flat-square" alt="tests" />
       </td>
       <td>
         • Multi-drive telemetry and cleaning covering both Local Disk C: and Local Disk D:.<br/>
@@ -226,11 +230,11 @@ Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT V
         <a href="https://github.com/Kamran5H/ArticlesDownloader"><b>🔬 Articles Downloader v10 Ultra Pro</b></a><br/>
         <sub><i>Academic Paper Discovery Across 9 Scientific APIs</i></sub><br/>
         <img src="https://img.shields.io/badge/Rank-Flagship_%236-059669?style=flat-square" alt="rank" />
-        <img src="https://img.shields.io/badge/Tests-52%2F52%20Pass-10B981?style=flat-square" alt="tests" />
+        <img src="https://img.shields.io/badge/Tests-8%2F8%20Pass-10B981?style=flat-square" alt="tests" />
       </td>
       <td>
         • Parallel multi-API scholarly discovery across Crossref, arXiv, PubMed, OpenAlex, etc.<br/>
-        • Next-Gen Obsidian 4K Modern UI with SSE live streaming progress and native window mode.<br/>
+        • Modern UI with SSE live streaming progress and native window mode.<br/>
         • SCImago SJR journal prestige ranking (Q1–Q4) and cascading Unpaywall/DOI resolver.<br/>
         • Automated citation exports in BibTeX, RIS, and APA7 reference formats.
       </td>
@@ -248,7 +252,7 @@ Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT V
         <a href="https://github.com/Kamran5H/SourceGenius"><b>🔍 Source Genius Suite</b></a><br/>
         <sub><i>Amazon Brand Architect & Multi-Tier Sourcing Intelligence</i></sub><br/>
         <img src="https://img.shields.io/badge/Rank-Flagship_%237-FF9900?style=flat-square" alt="rank" />
-        <img src="https://img.shields.io/badge/Tests-65%2F65%20Pass-10B981?style=flat-square" alt="tests" />
+        <img src="https://img.shields.io/badge/Tests-56%2F56%20Pass-10B981?style=flat-square" alt="tests" />
       </td>
       <td>
         • Chrome MV3 extension with real-time DOM brand parsing and sidepanel controls.<br/>
@@ -259,7 +263,7 @@ Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT V
       <td align="center">
         <code>JavaScript</code><br/>
         <code>Chrome MV3</code><br/>
-        <code>Node.js</code> · <code>Playwright</code><br/>
+        <code>FastAPI</code> · <code>Playwright</code><br/>
         <code>Node Test Suite</code>
       </td>
     </tr>
@@ -312,7 +316,7 @@ Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT V
 
 ---
 
-## 🗂️ &nbsp;Classified Repository Atlas (20 Public Projects)
+## 🗂️ &nbsp;Classified Repository Atlas (25 Active Projects)
 
 <div align="center">
 
