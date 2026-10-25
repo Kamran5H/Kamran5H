@@ -6,7 +6,7 @@
 <div align="center">
 
 <a href="https://github.com/Kamran5H">
-  <img width="100%" src="assets/banner.jpg" alt="Muhammad Kamran Ashraf — From Atoms to Autonomous Code" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+  <img width="100%" src="assets/banner.jpg" alt="Developer Kamran Ashraf — Academic Certificate Presentation & Computational Chemistry" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
 </a>
 
 <br/><br/>
@@ -15,12 +15,12 @@
   <tr>
     <td align="center" width="160">
       <a href="https://github.com/Kamran5H">
-        <img src="assets/avatar.png" width="145" height="145" style="border-radius: 50%; border: 3px solid #00F2FE; box-shadow: 0 0 20px rgba(0, 242, 254, 0.4);" alt="Muhammad Kamran Ashraf" />
+        <img src="assets/avatar.png" width="145" height="145" style="border-radius: 50%; border: 3px solid #00F2FE; box-shadow: 0 0 20px rgba(0, 242, 254, 0.4);" alt="Developer: Kamran Ashraf" />
       </a>
     </td>
     <td align="left">
-      <h1>&nbsp;Muhammad Kamran Ashraf (Kami)</h1>
-      <p>&nbsp;&nbsp;<b>AI Systems Architect &bull; Computational Physical Chemist &bull; Automation Pioneer</b></p>
+      <h1>&nbsp;Kamran Ashraf</h1>
+      <p>&nbsp;&nbsp;<b>Developer: Kamran Ashraf &bull; AI Systems Architect &bull; Computational Chemist</b></p>
       <p>&nbsp;&nbsp;🎓 <i>MPhil Scholar @ Quaid-i-Azam University, Islamabad (QAU)</i></p>
       <p>&nbsp;&nbsp;💡 <i>“Synthesizing Intelligence: From Atoms to Autonomous Code”</i></p>
     </td>
