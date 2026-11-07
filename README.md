@@ -1,412 +1,208 @@
-<!-- ══════════════════════════════════════════════════════════════════════════════════════ -->
-<!--                             MUHAMMAD KAMRAN ASHRAF — GITHUB PROFILE                        -->
-<!--           AI Systems Architect · Computational Physical Chemist · Automation Pioneer   -->
-<!-- ══════════════════════════════════════════════════════════════════════════════════════ -->
+<!--
+  Muhammad Kamran Ashraf — GitHub profile.
+  Every image here is hand-built SVG: scripts/build_assets.py renders the artwork (dark + light),
+  scripts/stats.py renders live telemetry twice a day via .github/workflows/profile.yml.
+  No third-party stat widgets, no tracking pixels.
+-->
 
 <div align="center">
 
-<a href="https://github.com/Kamran5H">
-  <img width="100%" src="assets/banner.jpg" alt="Developer Kamran Ashraf — Academic Certificate Presentation & Computational Chemistry" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
-</a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/hero-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/hero-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/hero-dark.svg" alt="Muhammad Kamran Ashraf — AI systems architect and computational chemist" width="100%"></picture>
 
-<br/><br/>
-
-<table border="0">
-  <tr>
-    <td align="center" width="160">
-      <a href="https://github.com/Kamran5H">
-        <img src="assets/avatar.png" width="145" height="145" style="border-radius: 50%; border: 3px solid #00F2FE; box-shadow: 0 0 20px rgba(0, 242, 254, 0.4);" alt="Developer: Kamran Ashraf" />
-      </a>
-    </td>
-    <td align="left">
-      <h1>&nbsp;Kamran Ashraf</h1>
-      <p>&nbsp;&nbsp;<b>Developer: Kamran Ashraf &bull; AI Systems Architect &bull; Computational Chemist</b></p>
-      <p>&nbsp;&nbsp;🎓 <i>MPhil Scholar @ Quaid-i-Azam University, Islamabad (QAU)</i></p>
-      <p>&nbsp;&nbsp;💡 <i>“Synthesizing Intelligence: From Atoms to Autonomous Code”</i></p>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<a href="https://github.com/Kamran5H">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&pause=1200&color=00F2FE&center=true&vCenter=true&width=880&lines=Building+Autonomous+AI+Agents+%26+Local-First+Neural+Engines;Simulating+Molecular+Physics+%26+DFT+with+Quantum+ESPRESSO;Engineering+Resilient+High-Throughput+Scrapers+%26+MV3+Extensions;Developing+Point-of-Care+Biosensors+%26+Functional+Nanomaterials;Crafting+4K+Generative+Cinema+%26+Neural+Voice+Synthesis;Synthesizing+Intelligence%3A+From+Atoms+to+Autonomous+Code." alt="Typing Animation" />
-</a>
-
-<br/>
-
-[![Profile Views](https://komarev.com/ghpvc/?username=Kamran5H&label=PROFILE%20VIEWS&color=6366F1&style=for-the-badge)](https://github.com/Kamran5H)
-[![Public Repos](https://img.shields.io/badge/REPOSITORIES-25%20ACTIVE-00F2FE?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kamran5H?tab=repositories)
-[![Institution](https://img.shields.io/badge/SCHOLAR-QAU%20ISLAMABAD-10B981?style=for-the-badge&logo=googlescholar&logoColor=white)](https://qau.edu.pk/)
-[![Dual Focus](https://img.shields.io/badge/DUAL%20FOCUS-AI%20%C3%97%20MOLECULES-EC4899?style=for-the-badge&logo=atom&logoColor=white)](https://github.com/Kamran5H)
-[![Location](https://img.shields.io/badge/BASED%20IN-ISLAMABAD%2C%20PK-4FACFE?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/Kamran5H)
+<a href="#about"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/nav-about-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/nav-about-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/nav-about-dark.svg" alt="About" width="15.6%"></picture></a>
+<a href="#work"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/nav-work-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/nav-work-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/nav-work-dark.svg" alt="Work" width="15.6%"></picture></a>
+<a href="#builds"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/nav-builds-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/nav-builds-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/nav-builds-dark.svg" alt="Builds" width="15.6%"></picture></a>
+<a href="#stack"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/nav-stack-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/nav-stack-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/nav-stack-dark.svg" alt="Stack" width="15.6%"></picture></a>
+<a href="#research"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/nav-research-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/nav-research-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/nav-research-dark.svg" alt="Research" width="15.6%"></picture></a>
+<a href="#contact"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/nav-contact-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/nav-contact-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/nav-contact-dark.svg" alt="Contact" width="15.6%"></picture></a>
 
 </div>
 
----
+<br>
 
-## ⚡ &nbsp;Terminal Session: `kamran@universe:~$`
+<a name="about"></a>
+<div align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/h-about-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/h-about-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/h-about-dark.svg" alt="01 — The short version" width="100%"></picture></div>
 
-```bash
-┌──(kamran㉿universe)-[~]
-└─$ kamran --whoami --verbose
+<div align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/about-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/about-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/about-dark.svg" alt="About: atoms plus algorithms yields autonomous systems" width="100%"></picture></div>
+
+> I'm an MPhil chemistry scholar at **Quaid-i-Azam University** who builds software the way an experimentalist runs a lab:
+> state the hypothesis, control the variables, make the result reproducible. By day that means polymer-nanocomposite
+> biosensors and DFT spectra; by night, local-first AI agents, resilient scrapers and the desktop tools I wish existed.
+
+<details>
+<summary><b>The 30-second version for recruiters</b></summary>
+<br>
+
+- **Builds end to end:** Python & TypeScript back ends (FastAPI, Flask, Express), browser automation (Playwright, Chrome MV3), desktop apps (Electron, CustomTkinter).
+- **Ships AI responsibly:** agentic loops with human-approval gates, local-first data, streaming UIs.
+- **Tests what he ships:** flagship repos carry automated suites (Quidian alone runs 152 tests).
+- **Brings a scientist's rigor:** computational chemistry (Quantum ESPRESSO / DFT), instrument data (FTIR, UV-Vis), and literature tooling.
+- **Has a live product:** [qaukalam.me](https://qaukalam.me), a platform for Quaid-i-Azam University students.
+
+</details>
+
+<br>
+
+<a name="work"></a>
+<div align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/h-work-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/h-work-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/h-work-dark.svg" alt="02 — Selected work" width="100%"></picture></div>
+
+<div align="center">
+
+<a href="https://github.com/Kamran5H/AI-Coding"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/work-ai-coding-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/work-ai-coding-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/work-ai-coding-dark.svg" alt="AI-Coding" width="49%"></picture></a>
+<a href="https://github.com/Kamran5H/Quidian-MediaDownloader"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/work-quidian-mediadownloader-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/work-quidian-mediadownloader-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/work-quidian-mediadownloader-dark.svg" alt="Quidian" width="49%"></picture></a>
+
+<a href="https://github.com/Kamran5H/Subah-TaskBook"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/work-subah-taskbook-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/work-subah-taskbook-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/work-subah-taskbook-dark.svg" alt="Subah" width="49%"></picture></a>
+<a href="https://github.com/Kamran5H/ArticlesDownloader"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/work-articlesdownloader-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/work-articlesdownloader-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/work-articlesdownloader-dark.svg" alt="Articles Downloader" width="49%"></picture></a>
+
+</div>
+
+<details>
+<summary><b>Architecture notes</b> — how the AI-Coding agent stays safe</summary>
+<br>
+
+```mermaid
+flowchart LR
+    T([Task]) --> P[Plan]
+    P --> R[Read and search files]
+    R --> E[Propose edit or command]
+    E --> G{Shell command?}
+    G -- no --> X[Apply in sandboxed workspace]
+    G -- yes --> H[[Human approval gate]]
+    H -- approved --> X
+    H -- rejected --> P
+    X --> S[Stream result to web GUI over SSE]
+    S --> P
 ```
 
-```yaml
-Identity:         Muhammad Kamran Ashraf (Kami)
-Academic Base:    Quaid-i-Azam University, Islamabad (Department of Chemistry)
-Dual Core:        AI Systems Architecture  ×  Computational Physical Chemistry
-Motto:            "Synthesizing Intelligence: From Atoms to Autonomous Code"
-Specializations:
-  ├── [Autonomous AI Systems]     Local-First Agentic Loops, Neural Voice/Cinema, HITL Safeguards, SSE Streaming
-  ├── [Computational Science]     Density Functional Theory (DFT), Quantum ESPRESSO, Molecular Imprinting (MIPs)
-  ├── [Data Pipelines & Scrapers] 6-Tier Resilient Sourcing Engines, Chrome MV3 Extensions, Anti-Bot Spoofing
-  └── [Engineering Rigor]        100% TDD Suite Pass Rates, Zero-Leak Local Vaults, Zero-Cost Cloud Acceleration
-Active Repos:     25 Active Repositories Shipped & Maintained
-Current Research: Green Urea-Imprinted PANi@CaO Nanocomposite Biosensors & DFT Vibrational Spectra
-```
+The model never touches the terminal on its own. Every command is shown to a human first, and the agent is confined to its workspace directory.
 
----
+</details>
 
-## 🧬 &nbsp;The Dual Engine: Silicon & Molecules
+<br>
+
+<a name="builds"></a>
+<div align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/h-builds-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/h-builds-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/h-builds-dark.svg" alt="03 — A periodic table of builds" width="100%"></picture></div>
 
 <div align="center">
 
-<table>
-  <thead>
-    <tr style="background: rgba(99, 102, 241, 0.15);">
-      <th align="center" width="50%"><h3>🤖 &nbsp;Silicon Domain (Autonomous AI & Software)</h3></th>
-      <th align="center" width="50%"><h3>⚛️ &nbsp;Molecular Domain (Computational Chemistry & Sensors)</h3></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td valign="top">
-        • <b>Local-First Sovereign Agents:</b> Inspect, test, and refactor codebases autonomously with human-in-the-loop terminal safety gates.<br/><br/>
-        • <b>4K Generative Cinema:</b> Storyboard prompt directors with Gemini 2.5 Flash, 3D Ken Burns motion, neural Edge-TTS voiceovers, and Wan 2.1 / LTX-Video.<br/><br/>
-        • <b>High-Resilience Scraping:</b> 6-tier fallback engines (DNS probe → DDG → Yahoo → Brave → SearXNG → Bing) with anti-fingerprint emulation.<br/><br/>
-        • <b>Chrome MV3 Ecosystems:</b> Manifest V3 service workers, DOM mutation observers, and high-speed data deduplication pipelines.
-      </td>
-      <td valign="top">
-        • <b>Ab-Initio DFT Modeling:</b> Quantum ESPRESSO electronic structure, geometry optimization, phonon dispersion, and FTIR vibrational simulations.<br/><br/>
-        • <b>Molecularly Imprinted Polymers (MIPs):</b> Biomimetic artificial receptors for electrochemical point-of-care sensors (PANi@CaO urea sensors).<br/><br/>
-        • <b>Green Nanotechnology:</b> Plant-mediated biosynthesis of functional metal oxides (CaO from <i>Syzygium cumini</i>) for catalysis and sensing.<br/><br/>
-        • <b>Automated Scientific Discovery:</b> Parallel Python engines querying 9 academic APIs (Crossref, PubMed, arXiv, OpenAlex) with config-driven review synthesis.
-      </td>
-    </tr>
-  </tbody>
-</table>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/legend-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/legend-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/legend-dark.svg" alt="Legend: AI, research, data, automation, apps" width="100%"></picture>
+
+<a href="https://github.com/Kamran5H/AI-Coding"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-ai-coding-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-ai-coding-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-ai-coding-dark.svg" alt="AI-Coding" width="19%"></picture></a>
+<a href="https://github.com/Kamran5H/Humanizer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-humanizer-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-humanizer-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-humanizer-dark.svg" alt="Humanizer" width="19%"></picture></a>
+<a href="https://github.com/Kamran5H/VideoStudio"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-videostudio-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-videostudio-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-videostudio-dark.svg" alt="VideoStudio" width="19%"></picture></a>
+<a href="https://github.com/Kamran5H/Urdu-Poetry-Studio"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-urdu-poetry-studio-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-urdu-poetry-studio-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-urdu-poetry-studio-dark.svg" alt="Urdu Poetry Studio" width="19%"></picture></a>
+<a href="https://github.com/Kamran5H/ArticlesDownloader"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-articlesdownloader-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-articlesdownloader-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-articlesdownloader-dark.svg" alt="ArticlesDownloader" width="19%"></picture></a>
+
+<a href="https://github.com/Kamran5H/ReviewForge"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-reviewforge-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-reviewforge-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-reviewforge-dark.svg" alt="ReviewForge" width="19%"></picture></a>
+<a href="https://github.com/Kamran5H/ResearchDaybook"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-researchdaybook-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-researchdaybook-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-researchdaybook-dark.svg" alt="Research Daybook" width="19%"></picture></a>
+<a href="https://github.com/Kamran5H/Early-Coding-Archive"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-early-coding-archive-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-early-coding-archive-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-early-coding-archive-dark.svg" alt="Early Coding Archive" width="19%"></picture></a>
+<a href="https://github.com/Kamran5H/SourceGenius"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-sourcegenius-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-sourcegenius-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-sourcegenius-dark.svg" alt="SourceGenius" width="19%"></picture></a>
+<a href="https://github.com/Kamran5H/SourceGenius-Share"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-sourcegenius-share-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-sourcegenius-share-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-sourcegenius-share-dark.svg" alt="SourceGenius Share" width="19%"></picture></a>
+
+<a href="https://github.com/Kamran5H/BrandScrapers"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-brandscrapers-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-brandscrapers-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-brandscrapers-dark.svg" alt="BrandScrapers" width="19%"></picture></a>
+<a href="https://github.com/Kamran5H/TikTokProductHunter"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-tiktokproducthunter-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-tiktokproducthunter-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-tiktokproducthunter-dark.svg" alt="TikTok Product Hunter" width="19%"></picture></a>
+<a href="https://github.com/Kamran5H/Quidian-MediaDownloader"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-quidian-mediadownloader-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-quidian-mediadownloader-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-quidian-mediadownloader-dark.svg" alt="Quidian" width="19%"></picture></a>
+<a href="https://github.com/Kamran5H/GmailZenith"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-gmailzenith-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-gmailzenith-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-gmailzenith-dark.svg" alt="GmailZenith" width="19%"></picture></a>
+<a href="https://github.com/Kamran5H/FacebookCleaner"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-facebookcleaner-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-facebookcleaner-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-facebookcleaner-dark.svg" alt="FacebookCleaner" width="19%"></picture></a>
+
+<a href="https://github.com/Kamran5H/DiskOptimizerPro"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-diskoptimizerpro-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-diskoptimizerpro-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-diskoptimizerpro-dark.svg" alt="DiskOptimizerPro" width="19%"></picture></a>
+<a href="https://github.com/Kamran5H/ChromeMonitor"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-chromemonitor-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-chromemonitor-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-chromemonitor-dark.svg" alt="ChromeMonitor" width="19%"></picture></a>
+<a href="https://github.com/Kamran5H/AutoClearExtension"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-autoclearextension-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-autoclearextension-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-autoclearextension-dark.svg" alt="AutoClear Extension" width="19%"></picture></a>
+<a href="https://github.com/Kamran5H/Subah-TaskBook"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-subah-taskbook-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-subah-taskbook-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-subah-taskbook-dark.svg" alt="Subah TaskBook" width="19%"></picture></a>
+<a href="https://github.com/Kamran5H/Portfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-portfolio-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-portfolio-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/el-portfolio-dark.svg" alt="Portfolio" width="19%"></picture></a>
 
 </div>
 
----
+<details>
+<summary><b>Full index</b> — every element, one line each</summary>
+<br>
 
-## 🏆 &nbsp;Featured Flagships — Verified & Shipped
+| Element | Repository | What it does |
+| :-- | :-- | :-- |
+| `01` **Ac** | [AI-Coding](https://github.com/Kamran5H/AI-Coding) | Local autonomous coding agent — web GUI, SSE streaming, human-approval gate on every shell command. |
+| `02` **Hu** | [Humanizer](https://github.com/Kamran5H/Humanizer) | AI-text naturalisation pipeline with a local heuristic AI-detection scorer and GUI. |
+| `03` **Vs** | [VideoStudio](https://github.com/Kamran5H/VideoStudio) | Text-to-video and image-to-video studio on Gradio with free cloud-GPU acceleration. |
+| `04` **Ur** | [Urdu-Poetry-Studio](https://github.com/Kamran5H/Urdu-Poetry-Studio) | 4K Urdu poetry typography designer — Nastaliq fonts, Wasli backdrops, one-click export. |
+| `05` **Ad** | [ArticlesDownloader](https://github.com/Kamran5H/ArticlesDownloader) | Scholarly paper discovery across 9 academic APIs with SQLite search history. |
+| `06` **Rf** | [ReviewForge](https://github.com/Kamran5H/ReviewForge) | Config-driven engine for critical, reproducible academic review articles with LLMs. |
+| `07` **Rd** | [ResearchDaybook](https://github.com/Kamran5H/ResearchDaybook) | Single-file, offline research journal on HTML5 localStorage. |
+| `08` **Ea** | [Early-Coding-Archive](https://github.com/Kamran5H/Early-Coding-Archive) | Where it started: early Python scripts, Tkinter GUIs and a boiling-point ML model. |
+| `09` **Sg** | [SourceGenius](https://github.com/Kamran5H/SourceGenius) | Autonomous Amazon brand-website finder — Chrome MV3, Playwright reader, VPN controller. |
+| `10` **Ss** | [SourceGenius-Share](https://github.com/Kamran5H/SourceGenius-Share) | Turnkey deployment bundle for the Source Genius extension and scraper. |
+| `11` **Bs** | [BrandScrapers](https://github.com/Kamran5H/BrandScrapers) | Amazon brand-extraction pipeline — ASIN scrapers, Keepa integration, threaded cleaners. |
+| `12` **Tk** | [TikTokProductHunter](https://github.com/Kamran5H/TikTokProductHunter) | Cross-platform Amazon to TikTok Shop product-discovery scraper (Playwright). |
+| `13` **Qd** | [Quidian-MediaDownloader](https://github.com/Kamran5H/Quidian-MediaDownloader) | 4K / playlist / subtitle downloader on yt-dlp + aria2c with a web dashboard. |
+| `14` **Gz** | [GmailZenith](https://github.com/Kamran5H/GmailZenith) | Bulk inbox automation and rule-based cleaning on the official Gmail API. |
+| `15` **Fc** | [FacebookCleaner](https://github.com/Kamran5H/FacebookCleaner) | Bulk triage of friends, groups and pages with FastAPI, Playwright and a web GUI. |
+| `16` **Do** | [DiskOptimizerPro](https://github.com/Kamran5H/DiskOptimizerPro) | Dual-drive Windows cleanup suite with a 3-stage duplicate hunter. |
+| `17` **Cm** | [ChromeMonitor](https://github.com/Kamran5H/ChromeMonitor) | Background utility tracking Chrome profiles, extensions and memory. |
+| `18` **Ax** | [AutoClearExtension](https://github.com/Kamran5H/AutoClearExtension) | Chrome MV3 extension for instant cache, cookie and history cleanup. |
+| `19` **Sb** | [Subah-TaskBook](https://github.com/Kamran5H/Subah-TaskBook) | Daily focus book — task rollover, surprise rewards, life diary. Electron, offline. |
+| `20` **Pf** | [Portfolio](https://github.com/Kamran5H/Portfolio) | Developer portfolio — Next.js 14, TypeScript, Tailwind. |
 
-<table>
-  <thead>
-    <tr style="background: rgba(99, 102, 241, 0.1);">
-      <th align="center" width="7%">Rank</th>
-      <th align="left" width="31%">Flagship Repository</th>
-      <th align="left" width="44%">Architecture & Key Capabilities</th>
-      <th align="center" width="18%">Tech Stack</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- #1 Subah-TaskBook -->
-    <tr>
-      <td align="center"><h1>🥇</h1><b>#1</b></td>
-      <td>
-        <a href="https://github.com/Kamran5H/Subah-TaskBook"><b>🌅 Subah — Daily Tasker</b></a><br/>
-        <sub><i>Daily Focus, Schedule Calendar & Surprise Reward Book</i></sub><br/>
-        <img src="https://img.shields.io/badge/Rank-Flagship_%231-F59E0B?style=flat-square" alt="rank" />
-        <img src="https://img.shields.io/badge/Verified-100%25%20Pass-10B981?style=flat-square" alt="tests" />
-      </td>
-      <td>
-        • Continuous rollover engine: incomplete commitments automatically migrate to next dawn.<br/>
-        • Interactive Schedule calendar view with per-day task planning & pinning prioritization.<br/>
-        • Dopamine-calibrated surprise reward library (53 offline-safe audio/spiritual rewards).<br/>
-        • Integrated life diary with mood tracking, retrospect cards, and 100% offline local privacy.
-      </td>
-      <td align="center">
-        <code>Electron / JS</code><br/>
-        <code>HTML5 / CSS3</code><br/>
-        <code>Local Storage</code><br/>
-        <code>TDD Suite</code>
-      </td>
-    </tr>
-    <!-- #2 Quidian-MediaDownloader -->
-    <tr>
-      <td align="center"><h1>🥈</h1><b>#2</b></td>
-      <td>
-        <a href="https://github.com/Kamran5H/Quidian-MediaDownloader"><b>⚡ Quidian Media Downloader</b></a><br/>
-        <sub><i>All Videos & 4K Media Extraction Suite with Turbo Acceleration</i></sub><br/>
-        <img src="https://img.shields.io/badge/Rank-Flagship_%232-00F2FE?style=flat-square" alt="rank" />
-        <img src="https://img.shields.io/badge/Tests-152%20Pass-10B981?style=flat-square" alt="tests" />
-      </td>
-      <td>
-        • All-in-one 4K/8K media downloader powered by yt-dlp, aria2c turbo, and a Flask + Waitress backend.<br/>
-        • Persistent SQLite job store with stateful resume across server restarts.<br/>
-        • Intelligent playlist smart-resume scanning <code>[video_id]</code> to skip previously completed files.<br/>
-        • Stealth sniffer engine, series auto-detection, and lossless container muxing (MKV/MP4/MP3).
-      </td>
-      <td align="center">
-        <code>Python 3.12+</code><br/>
-        <code>Flask / Waitress</code><br/>
-        <code>yt-dlp</code> · <code>aria2c</code><br/>
-        <code>FFmpeg</code>
-      </td>
-    </tr>
-    <!-- #3 FacebookCleaner -->
-    <tr>
-      <td align="center"><h1>🥉</h1><b>#3</b></td>
-      <td>
-        <a href="https://github.com/Kamran5H/FacebookCleaner"><b>🛡️ Facebook Zenith Cleaner</b></a><br/>
-        <sub><i>Bulk Triage, Friend Audit & Community Cleanup Automation</i></sub><br/>
-        <img src="https://img.shields.io/badge/Rank-Flagship_%233-EC4899?style=flat-square" alt="rank" />
-        <img src="https://img.shields.io/badge/Engine-Playwright%20Stealth-8B5CF6?style=flat-square" alt="engine" />
-      </td>
-      <td>
-        • Automated triage and unfriend/leave actions for inactive friends, spam groups, and pages.<br/>
-        • In-tab DOM injection collector with stealth human pacing.<br/>
-        • Real-time web dashboard with filterable review tables, safe preview gates, and purge stats.<br/>
-        • Integrated chat history navigator and multi-profile session support.
-      </td>
-      <td align="center">
-        <code>Python 3.12+</code><br/>
-        <code>FastAPI</code> · <code>Playwright</code><br/>
-        <code>Vanilla JS</code><br/>
-        <code>Stealth DOM</code>
-      </td>
-    </tr>
-    <!-- #4 DiskOptimizerPro -->
-    <tr>
-      <td align="center"><b>#4</b></td>
-      <td>
-        <a href="https://github.com/Kamran5H/DiskOptimizerPro"><b>🧹 Disk Optimizer Pro V2</b></a><br/>
-        <sub><i>Executive Dual-Drive (C: & D:) System & Developer Disk Cleanup Suite</i></sub><br/>
-        <img src="https://img.shields.io/badge/Rank-Flagship_%234-6366F1?style=flat-square" alt="rank" />
-        <img src="https://img.shields.io/badge/Tests-22%2F22%20Pass-10B981?style=flat-square" alt="tests" />
-      </td>
-      <td>
-        • Multi-drive telemetry and cleaning covering both Local Disk C: and Local Disk D:.<br/>
-        • High-performance 3-stage duplicate file detector (Size filter → 4KB head hash → SHA-256).<br/>
-        • Sweeps Windows Delivery Optimization, Prefetch, MEMORY.DMP, and VC++ remnants.<br/>
-        • Developer super-pack: sweeps NPM, VS Code, Cursor, and Python build caches with live UI telemetry.
-      </td>
-      <td align="center">
-        <code>Python 3.12+</code><br/>
-        <code>CustomTkinter</code><br/>
-        <code>Dual-Drive Ops</code><br/>
-        <code>Pytest Suite</code>
-      </td>
-    </tr>
-    <!-- #5 Humanizer -->
-    <tr>
-      <td align="center"><b>#5</b></td>
-      <td>
-        <a href="https://github.com/Kamran5H/Humanizer"><b>✍️ Humanizer Pro</b></a><br/>
-        <sub><i>Natural AI Text Rewriting with Local Detection Scoring</i></sub><br/>
-        <img src="https://img.shields.io/badge/Rank-Flagship_%235-F59E0B?style=flat-square" alt="rank" />
-        <img src="https://img.shields.io/badge/NLP-Perplexity%20Engine-EC4899?style=flat-square" alt="nlp" />
-      </td>
-      <td>
-        • Restructures synthetic AI phrasing into rhythmic, varied human cadence with burstiness.<br/>
-        • Local heuristic scorer analyzing perplexity, vocabulary entropy, and repetition metrics.<br/>
-        • Zero-leak local inference preserving complete document privacy and citation structures.<br/>
-        • Full DOCX formatting preservation engine for academic research manuscripts.
-      </td>
-      <td align="center">
-        <code>Python 3.12+</code><br/>
-        <code>NLP Heuristics</code><br/>
-        <code>python-docx</code><br/>
-        <code>Regex Engine</code>
-      </td>
-    </tr>
-    <!-- #6 ArticlesDownloader -->
-    <tr>
-      <td align="center"><b>#6</b></td>
-      <td>
-        <a href="https://github.com/Kamran5H/ArticlesDownloader"><b>🔬 Articles Downloader v10 Ultra Pro</b></a><br/>
-        <sub><i>Academic Paper Discovery Across 9 Scientific APIs</i></sub><br/>
-        <img src="https://img.shields.io/badge/Rank-Flagship_%236-059669?style=flat-square" alt="rank" />
-        <img src="https://img.shields.io/badge/Tests-8%2F8%20Pass-10B981?style=flat-square" alt="tests" />
-      </td>
-      <td>
-        • Parallel multi-API scholarly discovery across Crossref, arXiv, PubMed, OpenAlex, etc.<br/>
-        • Modern UI with SSE live streaming progress and native window mode.<br/>
-        • SCImago SJR journal prestige ranking (Q1–Q4) and cascading Unpaywall/DOI resolver.<br/>
-        • Automated citation exports in BibTeX, RIS, and APA7 reference formats.
-      </td>
-      <td align="center">
-        <code>Python 3.12+</code><br/>
-        <code>Flask / SSE</code><br/>
-        <code>Tkinter GUI</code><br/>
-        <code>SQLite Index</code>
-      </td>
-    </tr>
-    <!-- #7 SourceGenius -->
-    <tr>
-      <td align="center"><b>#7</b></td>
-      <td>
-        <a href="https://github.com/Kamran5H/SourceGenius"><b>🔍 Source Genius Suite</b></a><br/>
-        <sub><i>Amazon Brand Architect & Multi-Tier Sourcing Intelligence</i></sub><br/>
-        <img src="https://img.shields.io/badge/Rank-Flagship_%237-FF9900?style=flat-square" alt="rank" />
-        <img src="https://img.shields.io/badge/Tests-56%2F56%20Pass-10B981?style=flat-square" alt="tests" />
-      </td>
-      <td>
-        • Chrome MV3 extension with real-time DOM brand parsing and sidepanel controls.<br/>
-        • Resilient six-tier search fallback (DNS probe → DDG → Yahoo → Brave → SearXNG → Bing).<br/>
-        • Playwright multi-browser scraper daemon with stealth watchdog and anti-bot spoofing.<br/>
-        • Team deduplication database ensuring zero redundant queries and clean supplier lead exports.
-      </td>
-      <td align="center">
-        <code>JavaScript</code><br/>
-        <code>Chrome MV3</code><br/>
-        <code>FastAPI</code> · <code>Playwright</code><br/>
-        <code>Node Test Suite</code>
-      </td>
-    </tr>
-    <!-- #8 VideoStudio Pro -->
-    <tr>
-      <td align="center"><b>#8</b></td>
-      <td>
-        <a href="https://github.com/Kamran5H/VideoStudio"><b>🎬 VideoStudio Pro</b></a><br/>
-        <sub><i>4K Ultra HD AI Cinema & Generative Motion Studio</i></sub><br/>
-        <img src="https://img.shields.io/badge/Rank-Flagship_%238-8B5CF6?style=flat-square" alt="rank" />
-        <img src="https://img.shields.io/badge/Verified-9%2F9%20Pass-10B981?style=flat-square" alt="tests" />
-      </td>
-      <td>
-        • Multi-scene script storyboard director powered by Gemini 2.5 Flash.<br/>
-        • 3D Ken Burns pan/zoom camera motion with smooth cubic bezier easing.<br/>
-        • Neural Edge-TTS voice synthesis + procedural ambient sound generator.<br/>
-        • Zero-cost cloud GPU fallback pipelines (Wan 2.1, LTX-Video, Imagen 3).
-      </td>
-      <td align="center">
-        <code>Python 3.12+</code><br/>
-        <code>FFmpeg</code> · <code>Gradio</code><br/>
-        <code>Gemini 2.5</code><br/>
-        <code>Edge-TTS</code>
-      </td>
-    </tr>
-    <!-- #9 AI-Coding -->
-    <tr>
-      <td align="center"><b>#9</b></td>
-      <td>
-        <a href="https://github.com/Kamran5H/AI-Coding"><b>💻 AI-Coding Workspace</b></a><br/>
-        <sub><i>Autonomous Sovereign Coding Agent with Web GUI</i></sub><br/>
-        <img src="https://img.shields.io/badge/Rank-Flagship_%239-00F2FE?style=flat-square" alt="rank" />
-        <img src="https://img.shields.io/badge/Safety-HITL%20Gate-10B981?style=flat-square" alt="hitl" />
-      </td>
-      <td>
-        • Autonomous agentic loop: reads files, creates modules, and refactors bugs.<br/>
-        • Mandatory human approval gate before executing system terminal commands.<br/>
-        • Sandboxed workspace directory protection prevents unintended modifications.<br/>
-        • Real-time SSE streaming visualizer with expandable tool execution cards.
-      </td>
-      <td align="center">
-        <code>Node.js 18+</code><br/>
-        <code>Express</code> · <code>Vanilla JS</code><br/>
-        <code>OpenRouter API</code><br/>
-        <code>SSE Streaming</code>
-      </td>
-    </tr>
-  </tbody>
-</table>
+</details>
 
----
+<br>
 
-## 🗂️ &nbsp;Classified Repository Atlas (25 Active Projects)
+<a name="stack"></a>
+<div align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/h-stack-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/h-stack-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/h-stack-dark.svg" alt="04 — Spectrum of a toolchain" width="100%"></picture></div>
+
+<div align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/spectrum-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/spectrum-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/spectrum-dark.svg" alt="Tech stack drawn as an FTIR spectrum" width="100%"></picture></div>
+
+<br>
+
+<a name="research"></a>
+<div align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/h-research-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/h-research-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/h-research-dark.svg" alt="05 — In the lab" width="100%"></picture></div>
 
 <div align="center">
 
-### 🤖 AI, LLM, Generative Media & Creative Typography
-[![Urdu Poetry Studio](https://img.shields.io/badge/Urdu_Poetry_Studio-4K_Typography_%26_3D_Materials-D4AF37?style=for-the-badge&logo=quora&logoColor=black)](https://github.com/Kamran5H/Urdu-Poetry-Studio)
-[![VideoStudio Pro](https://img.shields.io/badge/VideoStudio_Pro-4K_Cinema_Studio-8B5CF6?style=for-the-badge&logo=youtube&logoColor=white)](https://github.com/Kamran5H/VideoStudio)
-[![AI Coding App](https://img.shields.io/badge/AI_Coding-Autonomous_Dev_Agent-00F2FE?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://github.com/Kamran5H/AI-Coding)
-[![Humanizer Pro](https://img.shields.io/badge/Humanizer_Pro-Text_Naturalization-EC4899?style=for-the-badge&logo=probot&logoColor=white)](https://github.com/Kamran5H/Humanizer)
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/research-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/research-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/research-dark.svg" alt="Research: green urea-imprinted PANi@CaO biosensors" width="100%"></picture>
 
-### 🔬 Computational Science, Research & Academic Tools
-[![Articles Downloader](https://img.shields.io/badge/Articles_Downloader-9_Academic_APIs-059669?style=for-the-badge&logo=googlescholar&logoColor=white)](https://github.com/Kamran5H/ArticlesDownloader)
-[![ReviewForge](https://img.shields.io/badge/ReviewForge-Systematic_Review_Engine-0284C7?style=for-the-badge&logo=readthedocs&logoColor=white)](https://github.com/Kamran5H/ReviewForge)
-[![Research Daybook](https://img.shields.io/badge/Research_Daybook-Offline_Research_Journal-4F46E5?style=for-the-badge&logo=obsidian&logoColor=white)](https://github.com/Kamran5H/ResearchDaybook)
-
-### ⚡ E-Commerce & High-Resilience Web Scraping
-[![Source Genius](https://img.shields.io/badge/Source_Genius-Brand_Website_Finder-FF9900?style=for-the-badge&logo=amazon&logoColor=white)](https://github.com/Kamran5H/SourceGenius)
-[![BrandScrapers](https://img.shields.io/badge/BrandScrapers-Amazon_Data_Pipeline-E11D48?style=for-the-badge&logo=python&logoColor=white)](https://github.com/Kamran5H/BrandScrapers)
-[![TikTok Product Hunter](https://img.shields.io/badge/TikTok_Hunter-Product_Discovery_Scraper-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://github.com/Kamran5H/TikTokProductHunter)
-[![SourceGenius Extension](https://img.shields.io/badge/SG_Extension-Chrome_MV3-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/Kamran5H/SourceGenius-Extension)
-[![SourceGenius Share](https://img.shields.io/badge/SG_Share_Portal-Deployment_Bundle-3B82F6?style=for-the-badge&logo=googlecloud&logoColor=white)](https://github.com/Kamran5H/SourceGenius-Share)
-
-### 🛡️ Browser Extensions & Desktop Utilities
-[![Disk Optimizer Pro](https://img.shields.io/badge/DiskOptimizer_Pro-Dual--Drive_Cleanup-6366F1?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Kamran5H/DiskOptimizerPro)
-[![Quidian Media](https://img.shields.io/badge/Quidian_Downloader-Turbo_4K_Extractor-10B981?style=for-the-badge&logo=vlcmediaplayer&logoColor=white)](https://github.com/Kamran5H/Quidian-MediaDownloader)
-[![Subah TaskBook](https://img.shields.io/badge/Subah_TaskBook-Daily_Focus_%26_Diary-F59E0B?style=for-the-badge&logo=clockify&logoColor=white)](https://github.com/Kamran5H/Subah-TaskBook)
-[![Gmail Zenith](https://img.shields.io/badge/Gmail_Zenith-Bulk_Inbox_Automation-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](https://github.com/Kamran5H/GmailZenith)
-[![Facebook Cleaner](https://img.shields.io/badge/Facebook_Cleaner-Zenith_Triage_Suite-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://github.com/Kamran5H/FacebookCleaner)
-[![AutoClear Extension](https://img.shields.io/badge/AutoClear_MV3-Browser_Optimizer-64748B?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/Kamran5H/AutoClearExtension)
-[![Chrome Monitor](https://img.shields.io/badge/Chrome_Monitor-Windows_Profile_Utility-0EA5E9?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/Kamran5H/ChromeMonitor)
-[![Portfolio](https://img.shields.io/badge/Personal_Portfolio-Next.js_%26_Tailwind-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/Kamran5H/Portfolio)
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/milestone-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/milestone-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/milestone-dark.svg" alt="Milestone: Certificate of Participation, LaTeX training workshop" width="100%"></picture>
 
 </div>
 
----
+<details>
+<summary><b>Lab notebook</b> — methods & instruments</summary>
+<br>
 
-## 🛠️ &nbsp;Master Tech Stack & Tooling
+| | |
+| :-- | :-- |
+| **Synthesis** | Plant-mediated (green) CaO nanoparticles from *Syzygium cumini* extract |
+| **Recognition layer** | Molecularly imprinted polyaniline (PANi) — urea-shaped cavities left after template removal |
+| **Characterisation** | FTIR, UV-Vis, electrochemical response |
+| **Computation** | Density functional theory with Quantum ESPRESSO — geometry optimisation, phonons, vibrational spectra |
+| **Writing** | LaTeX, reproducible figures, literature pipelines built with [ArticlesDownloader](https://github.com/Kamran5H/ArticlesDownloader) & [ReviewForge](https://github.com/Kamran5H/ReviewForge) |
+
+</details>
+
+<br>
+
+<a name="telemetry"></a>
+<div align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/h-telemetry-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/h-telemetry-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/h-telemetry-dark.svg" alt="06 — Live telemetry" width="100%"></picture></div>
 
 <div align="center">
 
-| Domain | Core Technologies & Libraries |
-| :--- | :--- |
-| **Artificial Intelligence & LLMs** | `Gemini 2.5 Flash / Pro` · `LangGraph` · `OpenRouter` · `Edge-TTS` · `Imagen 3` · `Wan 2.1` · `LTX-Video` |
-| **Computational & Physical Sciences** | `Quantum ESPRESSO (PWscf, ph.x)` · `Density Functional Theory (DFT)` · `OriginLab` · `MIP Electrochemistry` · `FTIR / UV-Vis` |
-| **Languages & Runtimes** | `Python 3.10 - 3.14` · `JavaScript (ES2024)` · `TypeScript` · `PowerShell` · `Bash / WSL2` |
-| **Frameworks & Backends** | `FastAPI` · `Express.js` · `Node.js` · `Gradio` · `Flask` · `CustomTkinter` · `Next.js` · `Tailwind CSS` |
-| **Browser Architecture & Scraping** | `Chrome Extensions Manifest V3` · `Playwright` · `Service Workers` · `DOM Mutation Observers` · `Anti-Bot Fingerprinting` |
-| **Media & Audio Engineering** | `FFmpeg (libx264/aac)` · `Pillow` · `ImageIO` · `Procedural Audio Synthesis` · `SRT Subtitling` |
-| **Databases & DevOps** | `SQLite (WAL mode)` · `AsyncIO` · `Pytest (100% Pass Rates)` · `Git` · `GitHub Actions CI/CD` · `Windows Script Host` |
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/output/stats-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/output/stats-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/output/stats-dark.svg" alt="Live GitHub telemetry" width="100%"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/output/snake-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/output/snake-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/output/snake-dark.svg" alt="Contribution graph being eaten by a snake" width="100%"></picture>
 
 </div>
 
----
+<br>
 
-## 🐍 &nbsp;Contribution Grid & Velocity
-
-<div align="center">
-
-### 🟢 Contribution Grid Snake
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/output/github-contribution-grid-snake-dark.svg" width="100%">
-</picture>
-
-<br/><br/>
-
-### 📊 GitHub Velocity & Language Distribution
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Kamran5H&theme=tokyonight" alt="Kamran's GitHub Stats" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Kamran5H&theme=tokyonight" alt="Top Languages" />
-
-<br/>
-
-<img width="98%" src="https://streak-stats.demolab.com?user=Kamran5H&hide_border=true&background=0B0F19&stroke=6366F1&ring=00F2FE&fire=EC4899&currStreakLabel=00F2FE&sideLabels=94A3B8&dates=64748B&currStreakNum=F8FAFC&sideNums=F8FAFC" alt="Commit Streak" />
-
-</div>
-
----
+<a name="contact"></a>
+<div align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/h-contact-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/h-contact-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/h-contact-dark.svg" alt="07 — Let's build something" width="100%"></picture></div>
 
 <div align="center">
 
-### 🤝 &nbsp;Connect & Collaborate
+<a href="mailto:chkamran32b@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/contact-email-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/contact-email-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/contact-email-dark.svg" alt="Email: chkamran32b@gmail.com" width="24%"></picture></a>
+<a href="https://github.com/Kamran5H"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/contact-github-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/contact-github-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/contact-github-dark.svg" alt="GitHub: @Kamran5H" width="24%"></picture></a>
+<a href="https://qaukalam.me"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/contact-kalam-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/contact-kalam-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/contact-kalam-dark.svg" alt="QAU Kalam: qaukalam.me · live" width="24%"></picture></a>
+<a href="https://github.com/Kamran5H/Portfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/contact-portfolio-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/contact-portfolio-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/contact-portfolio-dark.svg" alt="Portfolio: Next.js source" width="24%"></picture></a>
 
-[![GitHub](https://img.shields.io/badge/GitHub-Kamran5H-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kamran5H)
-[![Portfolio](https://img.shields.io/badge/Developer_Portfolio-Cyberpunk_Theme-00F2FE?style=for-the-badge&logo=vercel&logoColor=black)](https://github.com/Kamran5H/Portfolio)
-[![Gmail](https://img.shields.io/badge/Direct_Contact-chkamran32b@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chkamran32b@gmail.com)
+<br><br>
 
-<br/>
-
-*“Synthesizing intelligence at the intersection of molecular physics, autonomous agents, and elegant code.”*
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:EC4899,35:8B5CF6,70:6366F1,100:00F2FE&height=120&section=footer" alt="Footer Wave" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/footer-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/footer-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/footer-dark.svg" alt="Synthesizing intelligence, from atoms to autonomous code." width="100%"></picture>
 
 </div>

@@ -1,0 +1,56 @@
+name: Profile telemetry
+
+# Renders the live stats card and the contribution snake, then publishes
+# both to the `output` branch that README.md reads from.
+on:
+  schedule:
+    - cron: "17 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-telemetry
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install font tooling
+        run: pip install --quiet fonttools brotli
+
+      - name: Render live stats card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/stats.py --user ${{ github.repository_owner }} --out dist
+
+      - name: Render contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?palette=github-dark&color_snake=#FFB547&color_dots=#111829,#123a44,#16656f,#22a6b3,#3be3f0
+            dist/snake-light.svg?color_snake=#C26E00&color_dots=#ece8df,#bfe6ec,#7fd0db,#2aa9b8,#0a8fa8
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: refresh profile telemetry"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

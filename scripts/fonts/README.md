@@ -1,0 +1,1 @@
+﻿Instrument Serif, Inter and JetBrains Mono are licensed under the SIL Open Font License 1.1 (https://openfontlicense.org). Static instances generated from the google/fonts sources; subsets are embedded into the generated SVGs.
