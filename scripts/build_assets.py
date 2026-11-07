@@ -716,9 +716,11 @@ def milestone(t):
 # ──────────────────────────── 10. CONTACT ───────────────────────────
 CONTACTS = [
     ("email", "Email", "chkamran32b@gmail.com", "cyan"),
-    ("github", "GitHub", "@Kamran5H", "violet"),
+    ("linkedin", "LinkedIn", "in/kamran-ashraf", "violet"),
+    ("orcid", "ORCID", "0009-0003-2997-2954", "green"),
+    ("github", "GitHub", "@Kamran5H", "rose"),
     ("kalam", "QAU Kalam", "qaukalam.me · live", "amber"),
-    ("portfolio", "Portfolio", "Next.js source", "green"),
+    ("portfolio", "Portfolio", "Next.js source", "muted"),
 ]
 
 
@@ -730,6 +732,10 @@ def contact_pill(t, key, label, sub, ck):
         "github": f'<circle cx="31" cy="30" r="10" fill="none" stroke="{c}" stroke-width="1.6"/><circle cx="31" cy="30" r="3" fill="{c}"/>',
         "kalam": f'<path d="M23,38 L37,22 L40,25 L26,41 Z" fill="none" stroke="{c}" stroke-width="1.6" stroke-linejoin="round"/><path d="M23,38 L21,43 L26,41" fill="none" stroke="{c}" stroke-width="1.6"/>',
         "portfolio": f'<polygon points="{pts(hex_pts(31, 30, 11))}" fill="none" stroke="{c}" stroke-width="1.6"/>',
+        "linkedin": f'<rect x="20" y="19" width="22" height="22" rx="5" fill="none" stroke="{c}" stroke-width="1.6"/>'
+                    f'<text class="sans b" x="31" y="35" font-size="12" fill="{c}" text-anchor="middle">in</text>',
+        "orcid": f'<circle cx="31" cy="30" r="11" fill="none" stroke="{c}" stroke-width="1.6"/>'
+                 f'<text class="sans b" x="31" y="34.5" font-size="11" fill="{c}" text-anchor="middle">iD</text>',
     }[key]
     body = (
         f'<rect x=".5" y=".5" width="{W-1}" height="{H-1}" rx="16" fill="{t["panel"]}" stroke="{t["line"]}"/>'
@@ -768,7 +774,14 @@ def footer(t):
 
 # ───────────────────────────── main ─────────────────────────────────
 def main():
+    import sys
     os.makedirs(OUT, exist_ok=True)
+    if len(sys.argv) > 1 and sys.argv[1] == "contacts":  # fast path: contact pills only
+        for name, t in THEMES.items():
+            for key, label, sub, ck in CONTACTS:
+                save(f"contact-{key}", name, contact_pill(t, key, label, sub, ck))
+        print("contacts rebuilt")
+        return
     for name, t in THEMES.items():
         save("hero", name, hero(t))
         for num, label in NAV:

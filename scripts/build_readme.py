@@ -40,6 +40,8 @@ DESCRIPTIONS = {
 
 CONTACT_LINKS = {
     "email": "mailto:chkamran32b@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/kamran-ashraf-762a21363",
+    "orcid": "https://orcid.org/0009-0003-2997-2954",
     "github": f"https://github.com/{USER}",
     "kalam": "https://qaukalam.me",
     "portfolio": f"https://github.com/{USER}/Portfolio",
@@ -91,10 +93,11 @@ def build(base: str) -> str:
         for i, e in enumerate(ELEMENTS)
     )
 
-    contacts = "\n".join(
-        f'<a href="{CONTACT_LINKS[k]}">{pic(base, "contact-" + k, f"{label}: {sub}", "24%")}</a>'
+    pills = [
+        f'<a href="{CONTACT_LINKS[k]}">{pic(base, "contact-" + k, f"{label}: {sub}", "32%")}</a>'
         for k, label, sub, _ in CONTACTS
-    )
+    ]
+    contacts = "\n\n".join("\n".join(pills[i:i + 3]) for i in range(0, len(pills), 3))
 
     return f"""<!--
   Muhammad Kamran Ashraf — GitHub profile.
