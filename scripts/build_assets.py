@@ -80,7 +80,7 @@ TAGLINES = [
     "building local-first autonomous AI agents",
     "simulating molecules with DFT / Quantum ESPRESSO",
     "engineering resilient scrapers & Chrome MV3 tools",
-    "designing green nanocomposite biosensors",
+    "studying Ce-doped NiCo-MOF electrocatalysts",
 ]
 
 
@@ -307,7 +307,7 @@ def about(t):
     kv = [
         ("role", "AI systems architect · computational chemist"),
         ("base", "Quaid-i-Azam University, Islamabad"),
-        ("research", "PANi@CaO urea biosensors · DFT spectra"),
+        ("research", "Ce-doped NiCo-MOF electrocatalysis · DFT"),
         ("ships", "agents · scrapers · extensions · desktop apps"),
         ("stack", "Python · TypeScript · FastAPI · Playwright"),
     ]
@@ -608,81 +608,72 @@ def spectrum(t):
 
 
 # ──────────────────────────── 8. RESEARCH ───────────────────────────
-def urea(t):
-    return (
-        f'<line x1="0" y1="0" x2="0" y2="-13" stroke="{t["muted"]}" stroke-width="1.6"/>'
-        f'<line x1="3.2" y1="0" x2="3.2" y2="-13" stroke="{t["muted"]}" stroke-width="1.6"/>'
-        f'<line x1="0" y1="0" x2="-12" y2="8" stroke="{t["muted"]}" stroke-width="1.6"/>'
-        f'<line x1="2" y1="0" x2="14" y2="8" stroke="{t["muted"]}" stroke-width="1.6"/>'
-        f'<circle cx="1.6" cy="-15" r="5" fill="{t["rose"]}"/>'
-        f'<circle cx="1.6" cy="0" r="4.6" fill="{t["text"]}"/>'
-        f'<circle cx="-13" cy="9" r="5" fill="{t["violet"]}"/>'
-        f'<circle cx="16" cy="9" r="5" fill="{t["violet"]}"/>'
-    )
-
-
 def research(t):
+    """MPhil topic (confirmed): Ce-doped NiCo metal–organic frameworks for electrocatalysis.
+    The schematic is conceptual: no measured data is drawn."""
     W, H = 1200, 440
     s = [card(W, H, t, 22), corner_marks(W, H, t)]
     s.append(f'<text class="mono" x="60" y="74" font-size="12" fill="{t["amber"]}" letter-spacing="3">MPHIL RESEARCH · QUAID-I-AZAM UNIVERSITY</text>')
-    s.append(f'<text class="serif" x="58" y="134" font-size="48" fill="{t["text"]}">Green, urea-imprinted</text>')
-    s.append(f'<text class="serif i" x="58" y="186" font-size="48" fill="{t["amber"]}">PANi@CaO biosensors</text>')
-    para = ["CaO nanoparticles grown from Syzygium cumini extract,",
-            "wrapped in a molecularly imprinted polyaniline film —",
-            "a low-cost electrochemical receptor for urea."]
+    s.append(f'<text class="serif" x="58" y="134" font-size="48" fill="{t["text"]}">Ce-doped NiCo</text>')
+    s.append(f'<text class="serif i" x="58" y="186" font-size="48" fill="{t["amber"]}">MOF electrocatalysts</text>')
+    para = ["How does cerium in a NiCo metal–organic framework",
+            "change its activity for water splitting — oxygen and",
+            "hydrogen evolution? Supervised by Prof. Dr. Safeer Ahmed."]
     for i, p in enumerate(para):
         s.append(f'<text class="sans" x="60" y="{232 + i*24}" font-size="15" fill="{t["muted"]}">{esc(p)}</text>')
-    spec = [("method", "green synthesis · MIP electropolymerisation"),
-            ("probe", "FTIR · UV-Vis · DFT vibrational modes"),
-            ("tools", "Quantum ESPRESSO · OriginLab · Python")]
+    spec = [("focus", "OER / HER · structure–property links"),
+            ("model", "DFT with Quantum ESPRESSO"),
+            ("before", "BS: green CaO for dye removal & sensing")]
     for i, (k, v) in enumerate(spec):
         s.append(f'<text class="mono" x="60" y="{332 + i*27}" font-size="12.5"><tspan fill="{t["dim"]}">{k:<8}</tspan><tspan fill="{t["text"]}">{esc(v)}</tspan></text>')
 
-    # schematic
-    ex, ew, ey = 660, 480, 360
-    ft = ey - 96  # film top
-    s.append(f'<rect x="{ex}" y="{ey}" width="{ew}" height="16" rx="3" fill="{t["line2"]}"/>')
-    s.append(f'<text class="mono" x="{ex}" y="{ey+44}" font-size="10" fill="{t["dim"]}" letter-spacing="1.5">FIG. 3 — IMPRINTED CAVITIES CAPTURE UREA</text>')
-    s.append(f'<text class="mono" x="{ex+ew}" y="{ey+44}" font-size="10" fill="{t["dim"]}" letter-spacing="1.5" text-anchor="end">ELECTRODE</text>')
-    cav = [ex + 90, ex + 240, ex + 390]
-    film = [f"M{ex},{ey} L{ex},{ft}"]
-    x = ex
-    for cxv in cav:
-        film.append(f"L{cxv-34},{ft} C{cxv-30},{ft+50} {cxv+30},{ft+50} {cxv+34},{ft}")
-    film.append(f"L{ex+ew},{ft} L{ex+ew},{ey} Z")
-    s.append(f'<path d="{" ".join(film)}" fill="{t["cyan"]}" fill-opacity=".07" stroke="{t["cyan"]}" stroke-opacity=".5" stroke-width="1.3"/>')
-    rnd = random.Random(3)
-    for k in range(10):
-        x = ex + 26 + k * 48 + rnd.uniform(-5, 5)
-        r = rnd.uniform(11, 17)
-        s.append(f'<circle cx="{x:.1f}" cy="{ey-20-rnd.uniform(0,8):.1f}" r="{r:.1f}" fill="{t["amber"]}" fill-opacity=".85"/>')
-        s.append(f'<circle cx="{x-r*.35:.1f}" cy="{ey-24-r*.3:.1f}" r="{r*.28:.1f}" fill="#fff" fill-opacity=".25"/>')
-    zy = ey - 52
-    zz = " ".join(f"{ex + 8 + k*18},{zy + (9 if k % 2 else -7)}" for k in range(27))
-    s.append(f'<polyline points="{zz}" fill="none" stroke="{t["cyan"]}" stroke-width="2.2" stroke-linejoin="round"/>')
-    for k in range(1, 27, 3):
-        s.append(f'<circle cx="{ex + 8 + k*18}" cy="{zy + (9 if k % 2 else -7)}" r="3.4" fill="{t["violet"]}"/>')
-    s.append(f'<text class="mono" x="{ex}" y="{ft-14}" font-size="10" fill="{t["cyan"]}" letter-spacing="1.5">MIP · PANi FILM</text>')
-    s.append(f'<text class="mono" x="{ex+ew}" y="{ft-14}" font-size="10" fill="{t["amber"]}" letter-spacing="1.5" text-anchor="end">CaO NANOPARTICLES</text>')
-    for i, cxv in enumerate(cav):
-        s.append(f'<g transform="translate({cxv},{ft+26}) scale(1.45)"><g class="dock" style="animation-delay:{i*2:.1f}s">{urea(t)}</g></g>')
-    # current-time plot
-    px0, py0, pw, ph = 720, 70, 400, 92
-    s.append(f'<line x1="{px0}" y1="{py0+ph}" x2="{px0+pw}" y2="{py0+ph}" stroke="{t["line2"]}"/>')
-    s.append(f'<line x1="{px0}" y1="{py0}" x2="{px0}" y2="{py0+ph}" stroke="{t["line2"]}"/>')
-    s.append(f'<text class="mono" x="{px0-8}" y="{py0+8}" font-size="10" fill="{t["dim"]}" text-anchor="end">I</text>')
-    s.append(f'<text class="mono" x="{px0+pw}" y="{py0+ph+16}" font-size="10" fill="{t["dim"]}" text-anchor="end">t</text>')
-    steps = [(0, 0.08), (0.28, 0.08), (0.34, 0.36), (0.6, 0.36), (0.66, 0.64), (0.88, 0.64), (0.94, 0.9), (1, 0.9)]
-    d = " ".join(f"{'M' if k == 0 else 'L'}{px0 + x*pw:.1f},{py0 + ph - y*ph:.1f}" for k, (x, y) in enumerate(steps))
-    s.append(f'<path class="sig" pathLength="1" d="{d}" fill="none" stroke="{t["green"]}" stroke-width="2" stroke-linejoin="round"/>')
-    s.append(f'<text class="mono" x="{px0+pw}" y="{py0-10}" font-size="10" fill="{t["green"]}" text-anchor="end">response ~ [urea]</text>')
+    # schematic: electrolysis cell, MOF-coated anode, gas evolution
+    cx0, cy0, cw, ch = 660, 200, 300, 160
+    s.append(f'<rect x="{cx0}" y="{cy0}" width="{cw}" height="{ch}" rx="6" fill="{t["cyan"]}" fill-opacity=".06" stroke="{t["line2"]}"/>')
+    s.append(f'<line x1="{cx0}" y1="{cy0+22}" x2="{cx0+cw}" y2="{cy0+22}" stroke="{t["cyan"]}" stroke-opacity=".4" stroke-dasharray="3 5"/>')
+    ax, kx, ew_ = cx0 + 46, cx0 + 206, 48
+    for x in (ax, kx):
+        s.append(f'<rect x="{x}" y="{cy0-28}" width="{ew_}" height="{ch+8}" rx="4" fill="{t["line2"]}" fill-opacity=".55" stroke="{t["line2"]}"/>')
+    # MOF lattice on the anode: Ni / Co nodes, one Ce site, linkers
+    for r in range(5):
+        for c in range(2):
+            x = ax + 14 + c * 20
+            y = cy0 + 40 + r * 22
+            if c == 0:
+                s.append(f'<line x1="{x}" y1="{y}" x2="{x+20}" y2="{y}" stroke="{t["muted"]}" stroke-opacity=".5"/>')
+            if r < 4:
+                s.append(f'<line x1="{x}" y1="{y}" x2="{x}" y2="{y+22}" stroke="{t["muted"]}" stroke-opacity=".5"/>')
+            col = t["amber"] if (r == 2 and c == 1) else (t["green"] if c == 0 else t["rose"])
+            rr = 5.5 if (r == 2 and c == 1) else 4
+            s.append(f'<circle cx="{x}" cy="{y}" r="{rr}" fill="{col}"/>')
+    # rising bubbles
+    for i, (dx, y, d) in enumerate([(10, 128, 0), (18, 98, .9), (8, 70, 1.8), (16, 140, 2.6)]):
+        s.append(f'<circle class="bub" style="animation-delay:{d}s" cx="{ax + ew_ + dx}" cy="{cy0 + y}" r="{5 + i % 2}" fill="none" stroke="{t["cyan"]}" stroke-width="1.6"/>')
+    for i, (dx, y, d) in enumerate([(8, 136, .4), (16, 108, 1.2), (10, 80, 2.1), (20, 124, 2.9), (6, 96, .1), (14, 146, 1.6)]):
+        s.append(f'<circle class="bub bubh" style="animation-delay:{d}s" cx="{kx - dx}" cy="{cy0 + y}" r="{3 + i % 2}" fill="none" stroke="{t["amber"]}" stroke-width="1.5"/>')
+    s.append(f'<text class="mono" x="{ax+ew_/2}" y="{cy0-40}" font-size="10.5" fill="{t["cyan"]}" text-anchor="middle" letter-spacing="1.5">OER · O2</text>')
+    s.append(f'<text class="mono" x="{kx+ew_/2}" y="{cy0-40}" font-size="10.5" fill="{t["amber"]}" text-anchor="middle" letter-spacing="1.5">HER · H2</text>')
+    s.append(f'<text class="mono" x="{cx0+cw/2+4}" y="{cy0+ch-24}" font-size="11" fill="{t["dim"]}" text-anchor="middle">H2O</text>')
+    # legend
+    lx, ly = cx0, cy0 + ch + 34
+    for i, (lab, col) in enumerate((("Ni", t["green"]), ("Co", t["rose"]), ("Ce", t["amber"]))):
+        s.append(f'<circle cx="{lx + i*58 + 5}" cy="{ly-4}" r="4.5" fill="{col}"/>')
+        s.append(f'<text class="mono" x="{lx + i*58 + 15}" y="{ly}" font-size="10.5" fill="{t["muted"]}">{lab}</text>')
+    # schematic polarisation curve
+    px0, py0, pw, ph = 1000, 196, 140, 150
+    s.append(f'<path d="M{px0},{py0} V{py0+ph} H{px0+pw}" fill="none" stroke="{t["line2"]}"/>')
+    s.append(f'<path class="sig" pathLength="1" d="M{px0+4},{py0+ph-4} C{px0+70},{py0+ph-4} {px0+92},{py0+ph-14} {px0+104},{py0+ph-40} S{px0+122},{py0+20} {px0+132},{py0+6}" fill="none" stroke="{t["cyan"]}" stroke-width="2"/>')
+    s.append(f'<path d="M{px0+4},{py0+ph-4} C{px0+54},{py0+ph-4} {px0+72},{py0+ph-14} {px0+84},{py0+ph-40} S{px0+102},{py0+20} {px0+112},{py0+6}" fill="none" stroke="{t["amber"]}" stroke-width="1.6" stroke-dasharray="5 4"/>')
+    s.append(f'<text class="mono" x="{px0-6}" y="{py0+10}" font-size="10" fill="{t["dim"]}" text-anchor="end">j</text>')
+    s.append(f'<text class="mono" x="{px0+pw}" y="{py0+ph+16}" font-size="10" fill="{t["dim"]}" text-anchor="end">E</text>')
+    s.append(f'<text class="mono" x="{cx0}" y="{cy0-86}" font-size="10" fill="{t["dim"]}" letter-spacing="1.5">FIG. 3 — CONCEPTUAL SKETCH · NOT MEASURED DATA</text>')
     css = """
-.dock{animation:dock 6s cubic-bezier(.3,.7,.3,1) infinite both}
-@keyframes dock{0%{transform:translate(18px,-150px) rotate(-40deg);opacity:0}12%{opacity:1}55%{transform:translate(0,0) rotate(0)}85%{opacity:1;transform:translate(0,0)}100%{opacity:0;transform:translate(0,0)}}
-.sig{stroke-dasharray:1;stroke-dashoffset:0;animation:sig 6s linear infinite both}
-@keyframes sig{0%{stroke-dashoffset:1}80%{stroke-dashoffset:0}100%{stroke-dashoffset:0}}
+.bub{animation:bub 3.2s ease-in infinite both}.bubh{animation-duration:2.6s}
+@keyframes bub{0%{transform:translateY(0);opacity:0}15%{opacity:1}100%{transform:translateY(-70px);opacity:0}}
+.sig{stroke-dasharray:1;stroke-dashoffset:0;animation:sig 5s ease-in-out infinite both}
+@keyframes sig{0%{stroke-dashoffset:1}60%{stroke-dashoffset:0}100%{stroke-dashoffset:0}}
 """
-    return svg(W, H, "".join(s), "Research: green urea-imprinted PANi@CaO nanocomposite biosensors", css)
+    return svg(W, H, "".join(s), "Research: Ce-doped NiCo metal-organic frameworks for electrocatalytic water splitting", css)
 
 
 # ─────────────────────────── 9. MILESTONE ───────────────────────────
@@ -706,7 +697,7 @@ def milestone(t):
     code = [
         (f'<tspan fill="{t["violet"]}">\\usepackage</tspan>{{chemfig}}'),
         (f'<tspan fill="{t["violet"]}">\\chemfig</tspan>{{H_2N-C(=[2]O)-NH_2}}'),
-        (f'<tspan fill="{t["dim"]}">% urea — the molecule my sensor hunts</tspan>'),
+        (f'<tspan fill="{t["dim"]}">% urea — from my undergraduate sensing work</tspan>'),
     ]
     for i, c in enumerate(code):
         s.append(f'<text class="mono" x="{bx+18}" y="{by+28 + i*22}" font-size="12.5" fill="{t["text"]}">{c}</text>')
@@ -781,6 +772,11 @@ def main():
             for key, label, sub, ck in CONTACTS:
                 save(f"contact-{key}", name, contact_pill(t, key, label, sub, ck))
         print("contacts rebuilt")
+        return
+    if len(sys.argv) > 1 and sys.argv[1] == "research":  # fast path: research card only
+        for name, t in THEMES.items():
+            save("research", name, research(t))
+        print("research rebuilt")
         return
     for name, t in THEMES.items():
         save("hero", name, hero(t))

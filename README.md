@@ -26,8 +26,8 @@
 <div align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/about-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/about-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/about-dark.svg" alt="About: atoms plus algorithms yields autonomous systems" width="100%"></picture></div>
 
 > I'm an MPhil chemistry scholar at **Quaid-i-Azam University** who builds software the way an experimentalist runs a lab:
-> state the hypothesis, control the variables, make the result reproducible. By day that means polymer-nanocomposite
-> biosensors and DFT spectra; by night, local-first AI agents, resilient scrapers and the desktop tools I wish existed.
+> state the hypothesis, control the variables, make the result reproducible. By day that means metal–organic-framework
+> electrocatalysts for water splitting and DFT; by night, local-first AI agents, resilient scrapers and the desktop tools I wish existed.
 
 <details>
 <summary><b>The 30-second version for recruiters</b></summary>
@@ -156,7 +156,7 @@ The model never touches the terminal on its own. Every command is shown to a hum
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/research-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/research-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/research-dark.svg" alt="Research: green urea-imprinted PANi@CaO biosensors" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/research-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/research-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/research-dark.svg" alt="Research: Ce-doped NiCo metal-organic frameworks for electrocatalysis" width="100%"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/milestone-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/milestone-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/milestone-dark.svg" alt="Milestone: Certificate of Participation, LaTeX training workshop" width="100%"></picture>
 
@@ -168,10 +168,10 @@ The model never touches the terminal on its own. Every command is shown to a hum
 
 | | |
 | :-- | :-- |
-| **Synthesis** | Plant-mediated (green) CaO nanoparticles from *Syzygium cumini* extract |
-| **Recognition layer** | Molecularly imprinted polyaniline (PANi) — urea-shaped cavities left after template removal |
-| **Characterisation** | FTIR, UV-Vis, electrochemical response |
-| **Computation** | Density functional theory with Quantum ESPRESSO — geometry optimisation, phonons, vibrational spectra |
+| **MPhil topic** | Ce-doped NiCo metal–organic frameworks for electrocatalysis (OER / HER), supervised by Prof. Dr. Safeer Ahmed |
+| **Computation** | Density functional theory with Quantum ESPRESSO — electronic structure and adsorption energetics |
+| **Reading** | Air-electrode activity and degradation in rechargeable zinc–air batteries |
+| **Undergraduate (University of the Punjab)** | Green-synthesised CaO nanoparticles for dye degradation and urea sensing; Cu-supported TiO₂ for methyl orange degradation |
 | **Writing** | LaTeX, reproducible figures, literature pipelines built with [ArticlesDownloader](https://github.com/Kamran5H/ArticlesDownloader) & [ReviewForge](https://github.com/Kamran5H/ReviewForge) |
 
 </details>
