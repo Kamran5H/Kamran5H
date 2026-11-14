@@ -35,7 +35,7 @@ DESCRIPTIONS = {
     "ChromeMonitor": "Background utility tracking Chrome profiles, extensions and memory.",
     "AutoClearExtension": "Chrome MV3 extension for instant cache, cookie and history cleanup.",
     "Subah-TaskBook": "Daily focus book — task rollover, surprise rewards, life diary. Electron, offline.",
-    "Portfolio": "Developer portfolio — Next.js 14, TypeScript, Tailwind.",
+    "Portfolio": "Developer portfolio — Next.js 16, TypeScript, Tailwind.",
 }
 
 CONTACT_LINKS = {
@@ -44,7 +44,7 @@ CONTACT_LINKS = {
     "orcid": "https://orcid.org/0009-0003-2997-2954",
     "github": f"https://github.com/{USER}",
     "kalam": "https://qaukalam.me",
-    "portfolio": f"https://github.com/{USER}/Portfolio",
+    "portfolio": "https://kamranashraf.is-a.dev",
 }
 
 

@@ -711,7 +711,7 @@ CONTACTS = [
     ("orcid", "ORCID", "0009-0003-2997-2954", "green"),
     ("github", "GitHub", "@Kamran5H", "rose"),
     ("kalam", "QAU Kalam", "qaukalam.me · live", "amber"),
-    ("portfolio", "Portfolio", "Next.js source", "muted"),
+    ("portfolio", "Portfolio", "kamranashraf.is-a.dev", "muted"),
 ]
 
 
