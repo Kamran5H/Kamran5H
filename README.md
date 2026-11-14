@@ -138,7 +138,7 @@ The model never touches the terminal on its own. Every command is shown to a hum
 | `17` **Cm** | [ChromeMonitor](https://github.com/Kamran5H/ChromeMonitor) | Background utility tracking Chrome profiles, extensions and memory. |
 | `18` **Ax** | [AutoClearExtension](https://github.com/Kamran5H/AutoClearExtension) | Chrome MV3 extension for instant cache, cookie and history cleanup. |
 | `19` **Sb** | [Subah-TaskBook](https://github.com/Kamran5H/Subah-TaskBook) | Daily focus book — task rollover, surprise rewards, life diary. Electron, offline. |
-| `20` **Pf** | [Portfolio](https://github.com/Kamran5H/Portfolio) | Developer portfolio — Next.js 14, TypeScript, Tailwind. |
+| `20` **Pf** | [Portfolio](https://github.com/Kamran5H/Portfolio) | Developer portfolio — Next.js 16, TypeScript, Tailwind. |
 
 </details>
 
@@ -202,7 +202,7 @@ The model never touches the terminal on its own. Every command is shown to a hum
 
 <a href="https://github.com/Kamran5H"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/contact-github-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/contact-github-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/contact-github-dark.svg" alt="GitHub: @Kamran5H" width="32%"></picture></a>
 <a href="https://qaukalam.me"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/contact-kalam-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/contact-kalam-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/contact-kalam-dark.svg" alt="QAU Kalam: qaukalam.me · live" width="32%"></picture></a>
-<a href="https://github.com/Kamran5H/Portfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/contact-portfolio-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/contact-portfolio-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/contact-portfolio-dark.svg" alt="Portfolio: Next.js source" width="32%"></picture></a>
+<a href="https://kamranashraf.is-a.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/contact-portfolio-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/contact-portfolio-light.svg"><img src="https://raw.githubusercontent.com/Kamran5H/Kamran5H/main/assets/svg/contact-portfolio-dark.svg" alt="Portfolio: kamranashraf.is-a.dev" width="32%"></picture></a>
 
 <br><br>
 
