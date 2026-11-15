@@ -1,0 +1,40 @@
+name: Profile checks
+
+on:
+  pull_request:
+    paths:
+      - "README.md"
+      - "scripts/**"
+      - "assets/profile/**"
+      - "requirements-profile.txt"
+      - ".github/workflows/profile*.yml"
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "scripts/**"
+      - "assets/profile/**"
+      - "requirements-profile.txt"
+      - ".github/workflows/profile*.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements-profile.txt
+      - name: Check content, navigation, and artwork
+        run: python scripts/check_profile.py
+      - name: Verify generated artwork is current
+        run: |
+          python scripts/build_profile_art.py
+          git diff --exit-code -- assets/profile
+      - name: Check telemetry collection
+        run: python -m unittest discover -s scripts -p 'test_stats.py'

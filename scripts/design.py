@@ -61,6 +61,9 @@ def _load(path: str) -> bytes:
 
 def _subset_b64(fname: str, chars: str) -> str:
     font = TTFont(io.BytesIO(_load(os.path.join(FONT_DIR, fname))))
+    # Subsets must be reproducible: fontTools otherwise writes the current
+    # timestamp into each WOFF2, making unchanged artwork drift on every build.
+    font.recalcTimestamp = False
     opts = subset.Options()
     opts.flavor = "woff2"
     opts.layout_features = ["kern", "liga", "calt", "tnum"]

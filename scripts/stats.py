@@ -4,7 +4,8 @@ Live telemetry card, rendered from the GitHub API (no third-party stat services)
     GITHUB_TOKEN=... python scripts/stats.py --user Kamran5H --out dist
 
 Writes <out>/stats-dark.svg and <out>/stats-light.svg.
-Works without a token too (REST + public contribution calendar), just rate-limited.
+Only public repositories and the anonymous public contribution calendar are read.
+A token raises REST rate limits; it is never sent to the calendar page.
 """
 from __future__ import annotations
 
@@ -13,9 +14,10 @@ import datetime as dt
 import json
 import os
 import re
+from html.parser import HTMLParser
 import urllib.request
 
-from design import THEMES, card, esc, mono_w, svg, write
+from design import THEMES, card, esc, svg, write
 
 API = "https://api.github.com"
 
@@ -23,7 +25,7 @@ API = "https://api.github.com"
 def _req(url: str, payload: dict | None = None, raw: bool = False):
     headers = {"Accept": "application/vnd.github+json", "User-Agent": "kamran5h-profile-telemetry"}
     tok = os.environ.get("GITHUB_TOKEN")
-    if tok:
+    if tok and url.startswith(f"{API}/"):
         headers["Authorization"] = f"Bearer {tok}"
     data = json.dumps(payload).encode() if payload is not None else None
     r = urllib.request.Request(url, data=data, headers=headers)
@@ -32,32 +34,77 @@ def _req(url: str, payload: dict | None = None, raw: bool = False):
     return body.decode() if raw else json.loads(body)
 
 
+class ContributionCalendar(HTMLParser):
+    """Read dates and their tooltip counts without relying on attribute order."""
+
+    def __init__(self):
+        super().__init__()
+        self.dates = {}
+        self.tooltips = {}
+        self.active_tooltip = None
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if attrs.get("data-date") and attrs.get("id"):
+            self.dates[attrs["id"]] = attrs["data-date"]
+        if tag == "tool-tip" and attrs.get("for"):
+            self.active_tooltip = attrs["for"]
+            self.tooltips[self.active_tooltip] = ""
+
+    def handle_data(self, data):
+        if self.active_tooltip is not None:
+            self.tooltips[self.active_tooltip] += data
+
+    def handle_endtag(self, tag):
+        if tag == "tool-tip":
+            self.active_tooltip = None
+
+
 def contributions(user: str):
-    """Return (total_last_year, [daily counts oldest→newest])."""
-    if os.environ.get("GITHUB_TOKEN"):
-        q = """query($u:String!){user(login:$u){contributionsCollection{contributionCalendar{
-               totalContributions weeks{contributionDays{contributionCount date}}}}}}"""
-        res = _req(f"{API}/graphql", {"query": q, "variables": {"u": user}})
-        cal = res["data"]["user"]["contributionsCollection"]["contributionCalendar"]
-        days = [d["contributionCount"] for w in cal["weeks"] for d in w["contributionDays"]]
-        return cal["totalContributions"], days
+    """Return the publicly visible total and daily counts, oldest first.
+
+    The anonymous calendar also works with the repository-scoped Actions token.
+    Fail closed if GitHub changes its markup: never publish a fabricated zero.
+    """
     html = _req(f"https://github.com/users/{user}/contributions", raw=True)
-    ids = dict(re.findall(r'data-date="(\d{4}-\d\d-\d\d)" id="([^"]+)"', html))
-    ids = {v: k for k, v in ids.items()}  # id -> date
+    calendar = ContributionCalendar()
+    calendar.feed(html)
     counts = {}
-    for tid, txt in re.findall(r'<tool-tip[^>]*for="([^"]+)"[^>]*>([^<]*)</tool-tip>', html):
-        m = re.match(r"(\d+) contribution", txt.strip())
-        if tid in ids:
-            counts[ids[tid]] = int(m.group(1)) if m else 0
-    days = [counts[d] for d in sorted(counts)]
-    m = re.search(r"([\d,]+)\s+contributions?\s+in the last year", html)
-    total = int(m.group(1).replace(",", "")) if m else sum(days)
+    for tid, date in calendar.dates.items():
+        txt = calendar.tooltips.get(tid, "").strip()
+        match = re.match(r"([\d,]+|No) contributions?\b", txt)
+        if not match:
+            raise ValueError(f"Missing contribution count for {date}; keeping previous published data")
+        count = match.group(1)
+        counts[date] = 0 if count == "No" else int(count.replace(",", ""))
+    dates = sorted(counts)
+    if len(dates) < 364 or any(
+        dt.date.fromisoformat(b) - dt.date.fromisoformat(a) != dt.timedelta(days=1)
+        for a, b in zip(dates, dates[1:])
+    ):
+        raise ValueError("Incomplete contribution calendar; keeping previous published data")
+    days = [counts[d] for d in dates]
+    match = re.search(r"([\d,]+)\s+contributions?\s+in the last year", html)
+    total = int(match.group(1).replace(",", "")) if match else sum(days)
+    if total != sum(days):
+        raise ValueError("Contribution total does not match calendar; keeping previous published data")
     return total, days
 
 
 def collect(user: str):
-    repos = _req(f"{API}/users/{user}/repos?per_page=100&type=owner")
-    own = [r for r in repos if not r["fork"] and r["name"].lower() != user.lower()]
+    if not re.fullmatch(r"[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?", user):
+        raise ValueError("Invalid GitHub username")
+    repos = []
+    page = 1
+    while True:
+        batch = _req(f"{API}/users/{user}/repos?per_page=100&type=owner&page={page}")
+        repos.extend(batch)
+        if len(batch) < 100:
+            break
+        page += 1
+    # Explicitly exclude private repos even if the token can see them. Profile
+    # artwork is omitted so it does not distort the language breakdown.
+    own = [r for r in repos if not r.get("private", False) and not r["fork"] and r["name"].lower() != user.lower()]
     langs: dict[str, int] = {}
     for r in own:
         for k, v in _req(r["languages_url"]).items():
@@ -82,13 +129,13 @@ def render(t: dict, d: dict) -> str:
     stars_or_code = (
         ("STARS EARNED", f'{d["stars"]:,}', "")
         if d["stars"] >= 50
-        else ("CODE SHIPPED", f"{code_mb:.1f}", " MB")
+        else ("CODE · LINGUIST BYTES", f"{code_mb:.1f}", " MB")
     )
     metrics = [
-        ("PUBLIC REPOSITORIES", f'{d["repos"]:,}', ""),
+        ("PUBLIC PROJECT REPOS", f'{d["repos"]:,}', ""),
         stars_or_code,
         ("CONTRIBUTIONS · 12 MO", f'{d["contrib"]:,}', ""),
-        ("LANGUAGES IN USE", f'{len(d["langs"])}', ""),
+        ("LANGUAGES DETECTED", f'{len(d["langs"])}', ""),
     ]
     for i, (label, val, unit) in enumerate(metrics):
         x = 60 + (i % 2) * 250
@@ -136,7 +183,7 @@ def render(t: dict, d: dict) -> str:
     area = f"M{sx0},{sy0} " + " ".join(f"L{x:.1f},{y:.1f}" for x, y in ptsl) + f" L{sx1},{sy0} Z"
     s.append(f'<defs><linearGradient id="sa" x1="0" y1="{sy0-sh}" x2="0" y2="{sy0}" gradientUnits="userSpaceOnUse">'
              f'<stop offset="0" stop-color="{t["cyan"]}" stop-opacity=".28"/><stop offset="1" stop-color="{t["cyan"]}" stop-opacity="0"/></linearGradient></defs>')
-    s.append(f'<text class="mono" x="60" y="{sy0-sh-14}" font-size="11" fill="{t["dim"]}" letter-spacing="2">52 WEEKS OF COMMITS</text>')
+    s.append(f'<text class="mono" x="60" y="{sy0-sh-14}" font-size="11" fill="{t["dim"]}" letter-spacing="2">CONTRIBUTIONS · LAST 52 WEEKS</text>')
     peak = max(range(len(weeks)), key=lambda i: weeks[i])
     s.append(f'<line x1="{sx0}" y1="{sy0}" x2="{sx1}" y2="{sy0}" stroke="{t["line2"]}"/>')
     s.append(f'<path class="afade" d="{area}" fill="url(#sa)"/>')
@@ -162,8 +209,11 @@ def main():
     ap.add_argument("--out", default="dist")
     a = ap.parse_args()
     d = collect(a.user)
-    for name, t in THEMES.items():
-        write(os.path.join(a.out, f"stats-{name}.svg"), render(t, d))
+    # Finish both renders before writing; API or rendering failures leave the
+    # previous complete output untouched, and the workflow never publishes it.
+    rendered = {name: render(t, d) for name, t in THEMES.items()}
+    for name, content in rendered.items():
+        write(os.path.join(a.out, f"stats-{name}.svg"), content)
     print(json.dumps({k: v for k, v in d.items() if k != "days"}, indent=1))
 
 
