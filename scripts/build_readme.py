@@ -1,267 +1,161 @@
-"""
-Compose README.md from the same data that drives the artwork.
-
-    python scripts/build_readme.py            # README.md (absolute URLs, for GitHub)
-    python scripts/build_readme.py --local X  # preview copy with relative paths
-"""
+"""Generate README.md (or --local preview.md) using branch-relative artwork."""
 from __future__ import annotations
 
 import argparse
-import os
+from pathlib import Path
 
-from build_assets import CONTACTS, ELEMENTS, FLAGSHIPS, NAV, SECTIONS
+from profile_data import CONTACTS, DIRECTORY, PORTFOLIO, PROJECTS, USER
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-USER = "Kamran5H"
-RAW = f"https://raw.githubusercontent.com/{USER}/{USER}"
-
-DESCRIPTIONS = {
-    "AI-Coding": "Local autonomous coding agent — web GUI, SSE streaming, human-approval gate on every shell command.",
-    "Humanizer": "AI-text naturalisation pipeline with a local heuristic AI-detection scorer and GUI.",
-    "VideoStudio": "Text-to-video and image-to-video studio on Gradio with free cloud-GPU acceleration.",
-    "Urdu-Poetry-Studio": "4K Urdu poetry typography designer — Nastaliq fonts, Wasli backdrops, one-click export.",
-    "ArticlesDownloader": "Scholarly paper discovery across 9 academic APIs with SQLite search history.",
-    "ReviewForge": "Config-driven engine for critical, reproducible academic review articles with LLMs.",
-    "ResearchDaybook": "Single-file, offline research journal on HTML5 localStorage.",
-    "Early-Coding-Archive": "Where it started: early Python scripts, Tkinter GUIs and a boiling-point ML model.",
-    "SourceGenius": "Autonomous Amazon brand-website finder — Chrome MV3, Playwright reader, VPN controller.",
-    "SourceGenius-Share": "Turnkey deployment bundle for the Source Genius extension and scraper.",
-    "BrandScrapers": "Amazon brand-extraction pipeline — ASIN scrapers, Keepa integration, threaded cleaners.",
-    "TikTokProductHunter": "Cross-platform Amazon to TikTok Shop product-discovery scraper (Playwright).",
-    "Quidian-MediaDownloader": "4K / playlist / subtitle downloader on yt-dlp + aria2c with a web dashboard.",
-    "GmailZenith": "Bulk inbox automation and rule-based cleaning on the official Gmail API.",
-    "FacebookCleaner": "Bulk triage of friends, groups and pages with FastAPI, Playwright and a web GUI.",
-    "DiskOptimizerPro": "Dual-drive Windows cleanup suite with a 3-stage duplicate hunter.",
-    "ChromeMonitor": "Background utility tracking Chrome profiles, extensions and memory.",
-    "AutoClearExtension": "Chrome MV3 extension for instant cache, cookie and history cleanup.",
-    "Subah-TaskBook": "Daily focus book — task rollover, surprise rewards, life diary. Electron, offline.",
-    "Portfolio": "Developer portfolio — Next.js 16, TypeScript, Tailwind.",
-}
-
-CONTACT_LINKS = {
-    "email": "mailto:chkamran32b@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/kamran-ashraf-762a21363",
-    "orcid": "https://orcid.org/0009-0003-2997-2954",
-    "github": f"https://github.com/{USER}",
-    "kalam": "https://qaukalam.me",
-    "portfolio": "https://kamranashraf.is-a.dev",
-}
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = f"https://raw.githubusercontent.com/{USER}/{USER}/output"
 
 
-def pic(base: str, name: str, alt: str, width: str = "100%", live: bool = False) -> str:
-    if live and base.startswith("http"):
-        d, l = f"{RAW}/output/{name}-dark.svg", f"{RAW}/output/{name}-light.svg"
-    else:
-        d, l = f"{base}/{name}-dark.svg", f"{base}/{name}-light.svg"
+def picture(name: str, alt: str) -> str:
+    base = "assets/profile"
     return (
-        f'<picture><source media="(prefers-color-scheme: dark)" srcset="{d}">'
-        f'<source media="(prefers-color-scheme: light)" srcset="{l}">'
-        f'<img src="{d}" alt="{alt}" width="{width}"></picture>'
+        '<picture>\n'
+        f'  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="{base}/{name}-mobile-light.svg">\n'
+        f'  <source media="(max-width: 600px)" srcset="{base}/{name}-mobile-dark.svg">\n'
+        f'  <source media="(prefers-color-scheme: light)" srcset="{base}/{name}-light.svg">\n'
+        f'  <img src="{base}/{name}-dark.svg" alt="{alt}" width="100%">\n'
+        '</picture>'
     )
 
 
-def build(base: str) -> str:
-    sec = {key: (num, title) for num, key, title, _ in SECTIONS}
-
-    def header(key):
-        num, title = sec[key]
-        return f'<a name="{key}"></a>\n<div align="center">{pic(base, "h-" + key, f"{num} — {title}")}</div>\n'
-
-    nav_target = dict(about="about", work="work", builds="builds", stack="stack", research="research", contact="contact")
-    nav = "".join(
-        f'<a href="#{nav_target[label.lower()]}">{pic(base, "nav-" + label.lower(), label, "15.6%")}</a>\n'
-        for _, label in NAV
-    )
-
+def build() -> str:
     work = []
-    for i in range(0, len(FLAGSHIPS), 2):
-        row = []
-        for d in FLAGSHIPS[i:i + 2]:
-            row.append(f'<a href="https://github.com/{USER}/{d["repo"]}">{pic(base, "work-" + d["repo"].lower(), d["title"], "49%")}</a>')
-        work.append("\n".join(row))
+    for project in PROJECTS:
+        repo = f"https://github.com/{USER}/{project['repo']}"
+        work.append(f"""### [{project['name']}]({repo})
 
-    tiles = []
-    for i in range(0, len(ELEMENTS), 5):
-        row = [
-            f'<a href="https://github.com/{USER}/{e[0]}">{pic(base, "el-" + e[0].lower(), e[2], "19%")}</a>'
-            for e in ELEMENTS[i:i + 5]
-        ]
-        tiles.append("\n".join(row))
+{picture(project['repo'].lower(), project['name'] + ' — ' + project['category'].lower())}
 
-    index_rows = "\n".join(
-        f"| `{i+1:02d}` **{e[1]}** | [{e[0]}](https://github.com/{USER}/{e[0]}) | {DESCRIPTIONS[e[0]]} |"
-        for i, e in enumerate(ELEMENTS)
-    )
+{project['summary']}
 
-    pills = [
-        f'<a href="{CONTACT_LINKS[k]}">{pic(base, "contact-" + k, f"{label}: {sub}", "32%")}</a>'
-        for k, label, sub, _ in CONTACTS
-    ]
-    contacts = "\n\n".join("\n".join(pills[i:i + 3]) for i in range(0, len(pills), 3))
-
-    return f"""<!--
-  Muhammad Kamran Ashraf — GitHub profile.
-  Every image here is hand-built SVG: scripts/build_assets.py renders the artwork (dark + light),
-  scripts/stats.py renders live telemetry twice a day via .github/workflows/profile.yml.
-  No third-party stat widgets, no tracking pixels.
--->
-
-<div align="center">
-
-{pic(base, "hero", "Muhammad Kamran Ashraf — AI systems architect and computational chemist")}
-
-{nav}
-</div>
-
-<br>
-
-{header("about")}
-<div align="center">{pic(base, "about", "About: atoms plus algorithms yields autonomous systems")}</div>
-
-> I'm an MPhil chemistry scholar at **Quaid-i-Azam University** who builds software the way an experimentalist runs a lab:
-> state the hypothesis, control the variables, make the result reproducible. By day that means metal–organic-framework
-> electrocatalysts for water splitting and DFT; by night, local-first AI agents, resilient scrapers and the desktop tools I wish existed.
+**Built with:** {project['stack']}
 
 <details>
-<summary><b>The 30-second version for recruiters</b></summary>
-<br>
+<summary>Inside the project</summary>
 
-- **Builds end to end:** Python & TypeScript back ends (FastAPI, Flask, Express), browser automation (Playwright, Chrome MV3), desktop apps (Electron, CustomTkinter).
-- **Ships AI responsibly:** agentic loops with human-approval gates, local-first data, streaming UIs.
-- **Tests what he ships:** flagship repos carry automated suites (Quidian alone runs 152 tests).
-- **Brings a scientist's rigor:** computational chemistry (Quantum ESPRESSO / DFT), instrument data (FTIR, UV-Vis), and literature tooling.
-- **Has a live product:** [qaukalam.me](https://qaukalam.me), a platform for Quaid-i-Azam University students.
+{project['details']}
+
+[Explore the code & setup →]({repo}#readme)
+
+</details>""")
+
+    groups = []
+    for title, projects in DIRECTORY.items():
+        rows = "\n".join(
+            f"- **[{repo}](https://github.com/{USER}/{repo})** — {summary}"
+            for repo, summary in projects
+        )
+        groups.append(f"""<details>
+<summary><b>{title}</b> · {len(projects)} projects</summary>
+
+{rows}
+
+</details>""")
+
+    links = " · ".join(f"[{label}]({url})" for label, url in CONTACTS.items())
+    return f"""<!-- Generated by scripts/build_readme.py. Edit profile_data.py or the generator. -->
+
+{picture('hero', 'A little chemistry. A lot of curiosity. Portrait of Muhammad Kamran Ashraf beside a molecular lattice.')}
+
+# Muhammad Kamran Ashraf
+
+**MPhil Chemistry Researcher · Scientific Software Developer**<br>
+Quaid-i-Azam University, Islamabad, Pakistan
+
+I study energy materials and build software that makes research and everyday work easier. My work connects **electrocatalysis**, **computational chemistry**, and **practical tools built with Python and JavaScript**.
+
+**[Portfolio]({PORTFOLIO})** · **[Public CV]({PORTFOLIO}/cv/KAMRAN-ASHRAF-CV.pdf)** · **[Get in touch](#lets-connect)**
+
+[Selected work](#selected-work) · [Project directory](#project-directory) · [In the lab](#in-the-lab) · [Toolkit](#toolkit)
+
+---
+
+## Selected work
+
+Tools shaped by real workflows: finding a paper, exploring an agent, or making room for focused work. Open a project to read its setup, or expand the notes here.
+
+{chr(10).join(chr(10) + item + chr(10) for item in work)}
+
+**Community project — [QAU Kalam](https://qaukalam.me)**<br>
+A platform for student conversations, mentorship, and campus information at Quaid-i-Azam University. More context in my [portfolio case study]({PORTFOLIO}).
+
+## Project directory
+
+A curated collection of research tools, desktop utilities, and experiments. Expand a field to explore it.
+
+{chr(10).join(chr(10) + item + chr(10) for item in groups)}
+
+[Browse all public repositories →](https://github.com/{USER}?tab=repositories)
+
+## In the lab
+
+My ongoing MPhil research explores **Ce-doped NiCo metal–organic frameworks for electrocatalysis**, with oxygen and hydrogen evolution as the water-splitting reactions of interest. I work under **Prof. Dr. Safeer Ahmed** at Quaid-i-Azam University.
+
+Alongside this, I use **DFT workflows in Quantum ESPRESSO** to investigate electronic structure and adsorption energetics, connecting atomistic questions with experimental chemistry.
+
+<details>
+<summary>Research interests & earlier work</summary>
+
+- **Literature & analysis:** air-electrode activity and degradation in rechargeable zinc–air batteries.
+- **Undergraduate projects, University of the Punjab:** green-synthesized CaO nanoparticles for dye degradation and urea sensing; Cu-supported titanium oxide catalysts for methyl orange degradation.
+- **Research practice:** LaTeX, reproducible figures, spectroscopy, and tools for literature discovery and citation exports.
+
+[Research overview & public CV →]({PORTFOLIO}) · [ORCID](https://orcid.org/0009-0003-2997-2954)
 
 </details>
 
-<br>
+## Toolkit
 
-{header("work")}
-<div align="center">
-
-{work[0]}
-
-{work[1]}
-
-</div>
-
-<details>
-<summary><b>Architecture notes</b> — how the AI-Coding agent stays safe</summary>
-<br>
-
-```mermaid
-flowchart LR
-    T([Task]) --> P[Plan]
-    P --> R[Read and search files]
-    R --> E[Propose edit or command]
-    E --> G{{Shell command?}}
-    G -- no --> X[Apply in sandboxed workspace]
-    G -- yes --> H[[Human approval gate]]
-    H -- approved --> X
-    H -- rejected --> P
-    X --> S[Stream result to web GUI over SSE]
-    S --> P
-```
-
-The model never touches the terminal on its own. Every command is shown to a human first, and the agent is confined to its workspace directory.
-
-</details>
-
-<br>
-
-{header("builds")}
-<div align="center">
-
-{pic(base, "legend", "Legend: AI, research, data, automation, apps")}
-
-{tiles[0]}
-
-{tiles[1]}
-
-{tiles[2]}
-
-{tiles[3]}
-
-</div>
-
-<details>
-<summary><b>Full index</b> — every element, one line each</summary>
-<br>
-
-| Element | Repository | What it does |
-| :-- | :-- | :-- |
-{index_rows}
-
-</details>
-
-<br>
-
-{header("stack")}
-<div align="center">{pic(base, "spectrum", "Tech stack drawn as an FTIR spectrum")}</div>
-
-<br>
-
-{header("research")}
-<div align="center">
-
-{pic(base, "research", "Research: Ce-doped NiCo metal-organic frameworks for electrocatalysis")}
-
-{pic(base, "milestone", "Milestone: Certificate of Participation, LaTeX training workshop")}
-
-</div>
-
-<details>
-<summary><b>Lab notebook</b> — methods & instruments</summary>
-<br>
-
-| | |
+| Field | Tools I work with |
 | :-- | :-- |
-| **MPhil topic** | Ce-doped NiCo metal–organic frameworks for electrocatalysis (OER / HER), supervised by Prof. Dr. Safeer Ahmed |
-| **Computation** | Density functional theory with Quantum ESPRESSO — electronic structure and adsorption energetics |
-| **Reading** | Air-electrode activity and degradation in rechargeable zinc–air batteries |
-| **Undergraduate (University of the Punjab)** | Green-synthesised CaO nanoparticles for dye degradation and urea sensing; Cu-supported TiO₂ for methyl orange degradation |
-| **Writing** | LaTeX, reproducible figures, literature pipelines built with [ArticlesDownloader](https://github.com/{USER}/ArticlesDownloader) & [ReviewForge](https://github.com/{USER}/ReviewForge) |
+| Research | Quantum ESPRESSO · DFT · Electrochemistry · UV–Vis / IR · Origin |
+| Scientific computing | Python · NumPy / SciPy · SQLite · Literature APIs |
+| Web & desktop | JavaScript / TypeScript · React / Next.js · FastAPI · Electron |
+| Automation & delivery | Playwright · Chrome Manifest V3 · GitHub Actions · Azure |
+
+<details>
+<summary>On GitHub · activity & contribution artwork</summary>
+
+The card below uses public repository data and the publicly visible contribution calendar. Language shares describe **repository bytes**, rather than skill or proficiency. The timestamp on the card shows its last successful refresh; the workflow runs twice daily.
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="{OUTPUT}/stats-light.svg">
+  <img src="{OUTPUT}/stats-dark.svg" alt="Public GitHub repository and contribution statistics, with a last-updated timestamp" width="100%">
+</picture>
+
+[View activity on GitHub](https://github.com/{USER}?tab=overview) · [Open the full-size statistics card]({OUTPUT}/stats-dark.svg) · [Refresh workflow](https://github.com/{USER}/{USER}/actions/workflows/profile.yml)
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="{OUTPUT}/snake-light.svg">
+  <img src="{OUTPUT}/snake-dark.svg" alt="Decorative snake tracing the GitHub contribution grid" width="100%" loading="lazy">
+</picture>
 
 </details>
 
-<br>
+---
 
-{header("telemetry")}
-<div align="center">
+## Let's connect
 
-{pic(base, "stats", "Live GitHub telemetry", live=True)}
+Interested in chemistry research, scientific software, or a thoughtful automation project? Share the question you are working on.
 
-{pic(base, "snake", "Contribution graph being eaten by a snake", live=True)}
+**[chkamran32b@gmail.com](mailto:chkamran32b@gmail.com)**<br>
+{links} · [Portfolio]({PORTFOLIO})
 
-</div>
-
-<br>
-
-{header("contact")}
-<div align="center">
-
-{contacts}
-
-<br><br>
-
-{pic(base, "footer", "Synthesizing intelligence, from atoms to autonomous code.")}
-
-</div>
+<sub>From a question in the lab to a useful tool on the desk.</sub>
 """
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--local", help="write a preview README with relative asset paths to this file")
-    a = ap.parse_args()
-    if a.local:
-        out = build("assets/svg")
-        with open(a.local, "w", encoding="utf-8", newline="\n") as fh:
-            fh.write(out)
-    else:
-        with open(os.path.join(ROOT, "README.md"), "w", encoding="utf-8", newline="\n") as fh:
-            fh.write(build(f"{RAW}/main/assets/svg"))
-    print("ok")
+    ap.add_argument("--local", type=Path, help="write a preview README to this path")
+    args = ap.parse_args()
+    target = args.local or ROOT / "README.md"
+    target.write_text(build(), encoding="utf-8", newline="\n")
+    print(f"Wrote {target}")
 
 
 if __name__ == "__main__":

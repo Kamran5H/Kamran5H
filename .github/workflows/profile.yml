@@ -10,6 +10,7 @@ on:
     branches: [main]
     paths:
       - "scripts/**"
+      - "requirements-profile.txt"
       - ".github/workflows/profile.yml"
 
 permissions:
@@ -31,7 +32,10 @@ jobs:
           python-version: "3.12"
 
       - name: Install font tooling
-        run: pip install --quiet fonttools brotli
+        run: pip install --quiet -r requirements-profile.txt
+
+      - name: Check telemetry collection
+        run: python -m unittest discover -s scripts -p 'test_stats.py'
 
       - name: Render live stats card
         env:
